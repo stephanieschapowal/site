@@ -1,0 +1,12 @@
+<ul class="postlist">
+    {% for post in collections.bh reversed %}
+    <li class="content-card">
+
+        <a class="project-title" href="{{ post.url }}">
+            <img class="card-image" src="{{post.data.img}}">
+            {{ post.data.pageTitle }}
+        </a>
+
+    </li>
+    {% endfor %}
+</ul>
