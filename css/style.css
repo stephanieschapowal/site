@@ -237,10 +237,10 @@ h3 {
 	text-underline-offset: 2px;
 	text-decoration-thickness: 2px;
 
-	&:hover {
+	/* &:hover {
 		color: var(--text-primary);
 		text-decoration: solid underline var(--text-primary);
-	}
+	} */
 
 	@media (min-width: 768px) {
 		width: 80%;
