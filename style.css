@@ -1,0 +1,77 @@
+/*---------------------------ALL---------------------------*/
+
+*{
+	margin:0;
+	padding: 0;
+}
+
+body{
+	margin: 24px;
+	background-color: lightyellow;
+}
+
+#whole{
+	width: 312px
+}
+
+.stanza{
+	width: 100%;
+	padding-bottom: 24px;
+	display: inline-block;
+}
+
+.circle{
+	height: 8px;
+ 	width: 8px;
+ 	border-radius: 50%;
+ 	border: 1px solid black;
+ 	float: left;
+ 	margin-top:3.5px;
+}
+
+.circle:hover{
+	background-color: lime;
+	border: 1px solid lime;
+}
+
+.lines{
+	float: right;
+	width: calc(100% - 36px);
+}
+
+
+/*---------------------------TEXT-ALL---------------------------*/
+
+@font-face{
+	font-family: fakt;
+	src: url(FaktPro-Normal.ttf);
+}
+
+p{
+	font-size: 14px;
+	font-family: fakt, sans-serif;
+	text-indent: -16px;
+	color: black;
+	padding-bottom:4px;
+	line-height: 20px;
+
+}
+
+
+/*---------------------------TEXT-LINKS---------------------------*/
+
+a{
+	color: black;
+	text-decoration: solid underline #00000080;
+	text-underline-offset: 1px;
+}
+
+a:hover{
+	color: lime;
+	text-decoration: solid underline lime;
+}
+
+/*a:hover .one{
+	background-color: lime;
+	border-color: lime;
+}*/
