@@ -19,20 +19,18 @@ tags: nav
 
 <p class="divider-word">Previously,</p>
 
-### Previously, I worked at [Big Human](https://www.bighuman.com/), a product studio with clients ranging from start-ups to nonprofits. I was involved with every part of the product process—starting with branding, and following through to high fidelity designs.
+### I worked at [Big Human](https://www.bighuman.com/), a product studio with clients ranging from start-ups to nonprofits. I was involved with every part of the product process—starting with branding, and following through to high fidelity designs.
 
 
 <p class="divider-word">A bit about me—</p>
 
-### Prior to life as a product designer, I created brand activations with [Imprint Projects](https://imprintprojects.com/), swam with [+POOL](https://pluspool.com/), and launched streaming apps with [ABC](https://abc.com/).
+### Prior to life as a product designer, I created brand activations with [Imprint Projects](https://imprintprojects.com/), swam with [+POOL](https://pluspool.com/), and defined public space with [middle Of brOad studio](https://www.instagram.com/middleofbroadstudio/?hl=en).
 
 ### I’ve spoken at [Figma Config 2022](https://www.youtube.com/watch?v=DlrbBo9xYYU), MCN 2024, and Rutgers' Design Lecture Series; as well as classes at Parsons, Rutgers, and VCU.
-
-### I received a BFA in Graphic Design from VCU, where I spent my formative design-years defining public space with [middle Of brOad studio](https://www.instagram.com/middleofbroadstudio/?hl=en).
 
 ### I designed and built this website myself.
 
 
 <p class="divider-word">Get in touch:</p>
 
-### [Résumé](.../files/StephanieSchapowal_Resume.pdf), [LinkedIn](https://www.linkedin.com/in/stephanie-schapowal/), [Email](mailto:stephanieschapowal@gmail.com)
+### [Email](mailto:stephanieschapowal@gmail.com), [Résumé](files/StephanieSchapowal_Resume.pdf), [LinkedIn](https://www.linkedin.com/in/stephanie-schapowal/)
