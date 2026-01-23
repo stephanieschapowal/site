@@ -70,37 +70,6 @@ header {
 	}
 }
 
-nav {
-	padding-top: var(--space-lg);
-
-	ul {
-		list-style: none;
-		display: flex;
-		flex-direction: row;
-		gap: var(--space-md);
-		place-self: center;
-		padding-left: 0;
-	}
-
-	a {
-		color: var(--accent);
-	}
-}
-
-.p-work .t-work a,
-.p-about .t-about a {
-	text-decoration: underline;
-	text-underline-offset: 2px;
-	text-decoration-thickness: 2px;
-}
-
-.p-about .t-work a:hover,
-.p-work .t-about a:hover {
-	text-decoration: underline;
-	text-underline-offset: 2px;
-	text-decoration-thickness: 2px;
-}
-
 svg.circle {
 	position: fixed;
 	top: 1.8em;
@@ -247,9 +216,14 @@ h3 {
 h4 {
 	font-size: 16px;
 	line-height: 22px;
-	text-align: left;
-	font-weight: bold;
-	padding-top: .5em;
+	margin: var(--space-lg) auto 0 auto;
+	padding: var(--space-xs) var(--space-sm) var(--space-xs) var(--space-sm);
+	margin-bottom: var(--space-md);
+	width: fit-content;
+	background-color: #DEE07E;
+	border-radius: 1em;
+	font-weight: 400;
+
 
 	@media (min-width: 768px) {
 		font-size: 18px;
@@ -261,6 +235,8 @@ p,
 li {
 	font-size: 16px;
 	line-height: 22px;
+	max-width: 600px;
+	margin: 0 auto;
 
 	@media (min-width: 768px) {
 		font-size: 18px;
@@ -300,12 +276,16 @@ ul {
 
 button {
 	background-color: var(--background);
+	color: var(--accent);
 	border: none;
-	border-radius: 12px;
-	padding: var(--space-sm);
+	border-radius: 50px;
+	padding: var(--space-xs);
 	font-family: Arial, Helvetica, sans-serif;
 	font-size: 18px;
-	margin: 0 auto;
+	position: fixed;
+	top: var(--space-md);
+	left: calc(50% - 74px);
+	z-index: 10;
 }
 
 a.button {
