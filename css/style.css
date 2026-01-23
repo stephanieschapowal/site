@@ -126,9 +126,9 @@ a.project-title {
 	position: relative;
 	width: fit-content;
 	margin: auto;
-	padding: var(--space-xl) 0 var(--space-sm) 0;
+	padding: var(--space-xl) 0 var(--space-xl) 0;
 	color: var(--accent);
-	/* transform: rotate(0.75turn); */
+	transform: rotate(-0.75turn);
 }
 
 .p-about .divider-word {
@@ -178,6 +178,10 @@ h1 {
 		font-size: 32px;
 		/* line-height: 30px; */
 	}
+
+	&:hover {
+		color: var(--text-primary);
+	}
 }
 
 h2 {
@@ -195,7 +199,7 @@ h3 {
 	font-size: 20px;
 	font-weight: 100;
 	line-height: 24px;
-	padding-bottom: var(--space-md);
+	padding: var(--space-xs) 0 var(--space-md) 0;
 
 	color: var(--text-primary);
 	text-underline-offset: 2px;
@@ -286,6 +290,10 @@ button {
 	top: var(--space-md);
 	left: calc(50% - 74px);
 	z-index: 10;
+}
+
+a:hover {
+	color: #2C1CC2;
 }
 
 a.button {
