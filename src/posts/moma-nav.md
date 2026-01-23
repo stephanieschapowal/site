@@ -6,8 +6,6 @@ layout: posts.html
 description: A global navigation that balances accessibility and accuracy
 img: /img/moma-nav/thumbnail-Nav.jpg
 cta: Case study
-tags:
-  - moma
 related:
 - moma-dvg
 - myadvocate
@@ -18,6 +16,8 @@ related:
 <div class="body-content">
 
 The global navigation on moma.org is a user's first point of targeted exploraiton on our website. Through ongoing user research for other projects, we noticed that our navigation was often a stumbling block— the nomenclature we used to speak about ourselves didn’t align with our users’ mental models. We also saw opportunities to increase revenue from ticket sales, and speed up the path to popular pages.
+
+I led design on this project from start to finish. I did extensive research into our current navigation to identify problem areas, and tested each proposed architecture. I created the high fidelity designs, animated prototypes to model the interactions, and monitored analytics post-launch.
 
 ![MoMA's navigation, before and after our redesign](xxxxx)
 

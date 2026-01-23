@@ -42,7 +42,7 @@
 
 	<header>
 		<a href="/">
-			<button>All projects</button>
+			<button>← All projects</button>
 			<!-- <svg class="circle" height="40" width="40" xmlns="http://www.w3.org/2000/svg">
 				<circle transform="translate(50%,2%)" r="20" cx="50%" cy="20" fill="#8F920B" />
 			</svg> -->
@@ -69,7 +69,7 @@
 
 		{% if related %}
 		<div class="related-posts">
-			<h2>More work</h2>
+			<h2>More projects</h2>
 			<ul class="postlist">
 				{% assign related_posts = collections.posts | where_related: related %}
 				{% for post in related_posts %}
@@ -83,12 +83,6 @@
 			</ul>
 		</div>
 		{% endif %}
-
-		<footer>
-			<ul>
-				<li><a href="/">Home</a></li>
-			</ul>
-		</footer>
 	</main>
 
 </body>

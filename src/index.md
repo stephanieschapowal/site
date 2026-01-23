@@ -16,14 +16,11 @@ tags: nav
 
 ### I'm a Senior Product Designer at [The Museum of Modern Art](https://www.moma.org), where I design new features to help our visitors explore the depth of MoMA’s offerings.
 
-{% include "postlist-moma.html" %}
-
 
 <p class="divider-word">Previously,</p>
 
 ### Previously, I worked at [Big Human](https://www.bighuman.com/), a product studio with clients ranging from start-ups to nonprofits. I was involved with every part of the product process—starting with branding, and following through to high fidelity designs.
 
-{% include "postlist-bh.html" %}
 
 <p class="divider-word">A bit about me—</p>
 
@@ -38,4 +35,4 @@ tags: nav
 
 <p class="divider-word">Get in touch:</p>
 
-### Résumé, [LinkedIn](https://www.linkedin.com/in/stephanie-schapowal/), [Email](mailto:stephanieschapowal@gmail.com)
+### [Résumé](.../files/StephanieSchapowal_Resume.pdf), [LinkedIn](https://www.linkedin.com/in/stephanie-schapowal/), [Email](mailto:stephanieschapowal@gmail.com)
