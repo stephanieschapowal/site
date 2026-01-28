@@ -203,7 +203,7 @@ h3 {
 	padding: var(--space-xs) 0 var(--space-md) 0;
 
 	color: var(--text-primary);
-	text-underline-offset: 2.5px;
+	text-underline-offset: 3px;
 	text-decoration-thickness: 2px;
 
 	@media (min-width: 768px) {
@@ -214,7 +214,7 @@ h3 {
 }
 
 /* a {
-	text-decoration-color: #DDE056;
+	text-decoration-color: var(--circle);
 } */
 
 h4 {
