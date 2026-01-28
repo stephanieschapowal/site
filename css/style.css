@@ -126,14 +126,14 @@ a.project-title {
 	position: relative;
 	width: fit-content;
 	margin: auto;
-	padding: var(--space-xl) 0 var(--space-xl) 0;
+	padding: var(--space-xl) 0 var(--space-sm) 0;
 	color: var(--accent);
-	transform: rotate(-0.75turn);
+	/* transform: rotate(-0.75turn); */
 }
 
-.p-about .divider-word {
+/* .p-about .divider-word {
 	padding: 0 0 var(--space-sm) 0;
-}
+} */
 
 /* posts */
 
@@ -241,6 +241,7 @@ li {
 	line-height: 22px;
 	max-width: 600px;
 	margin: 0 auto;
+	text-align: center;
 
 	@media (min-width: 768px) {
 		font-size: 18px;
@@ -293,7 +294,7 @@ button {
 }
 
 a:hover {
-	color: #2C1CC2;
+	color: var(--accent);
 }
 
 a.button {
