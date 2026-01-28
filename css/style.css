@@ -9,7 +9,8 @@
 	/* color variables */
 	--background: #FDFCFB;
 	--text-primary: #000;
-	--accent: #8F920B;
+	--circle: #8F920B;
+	--accent: #77790A;
 
 	/* spacing variables */
 	--space-xs: 0.6rem;
@@ -202,13 +203,8 @@ h3 {
 	padding: var(--space-xs) 0 var(--space-md) 0;
 
 	color: var(--text-primary);
-	text-underline-offset: 2px;
+	text-underline-offset: 2.5px;
 	text-decoration-thickness: 2px;
-
-	/* &:hover {
-		color: var(--text-primary);
-		text-decoration: solid underline var(--text-primary);
-	} */
 
 	@media (min-width: 768px) {
 		width: 80%;
@@ -216,6 +212,10 @@ h3 {
 		line-height: 30px;
 	}
 }
+
+/* a {
+	text-decoration-color: #DDE056;
+} */
 
 h4 {
 	font-size: 16px;
