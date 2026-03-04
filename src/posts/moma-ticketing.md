@@ -18,7 +18,7 @@ related:
 
 ### MoMA’s online ticketing system was optimized for timed entry slots, not a seamless purchase experience
 
-During the pandemic, MoMA adopted a timed ticketing system for admission to prevent lines and ease crowding. To stand up this solution quickly during uncertain times, the Digital Product team had turned to ACME’s (our ticket management vendor) white label solution. While the white label did a great job of handling time slots, its six screen flow took an average of 7 minutes to complete, was saddled with confusing out-of-the-box copy, and was unable to support membership or Design Store upsells. With timed ticketing no longer necessary, our team took the opportunity to use ACME’s API to build an in-house ticketing solution.
+During the pandemic, MoMA adopted a timed ticketing system for admission to prevent lines and ease crowding. To stand up this solution quickly during uncertain times, the Digital Product team had turned to a third party white label solution. While the white label did a great job of handling time slots, its six screen flow took an average of 7 minutes to complete, was saddled with confusing out-of-the-box copy, and was unable to support membership or Design Store upsells. With timed ticketing no longer necessary, our team took the opportunity to use ACME’s API to build an in-house ticketing solution.
 
 ![Overview of MoMA's old ticketing flow](/img/moma-ticketing/ticketing-before.png)
 <p class="caption">The old ticketing flow had six steps, and required visitors to sift through a lot of information to figure out which ticket types they were eligible for.</p>
@@ -31,7 +31,7 @@ As part of this process, I gathered requirements from stakeholders across the mu
 
 By focusing on an intuitive and accessible user experience, we saw revenue from online ticketing increase 4.5% in the first six months after launch. For our users, the average time to checkout was reduced by over 50%. The new design also provided a foundation for future experimentation and testing by our growth squad, leading to a successful membership upsell offer system, and the addition of digital wallet payments.
 
-We were able to make critical improvements for staff, like growing marketing’s email subscription list, and easing requests of our lobby staff by optimizing our confirmation page and digital tickets to prepare visitors for their day at MoMA.
+We were also able to make critical improvements for staff, like growing marketing’s email subscription list, and easing requests of our lobby staff by optimizing our confirmation page and digital tickets to prepare visitors for their day at MoMA.
 
 
 #### Approach

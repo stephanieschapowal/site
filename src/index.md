@@ -14,7 +14,7 @@ tags: nav
 
 <p class="divider-word">Currently,</p>
 
-### I'm a Senior Product Designer at [The Museum of Modern Art](https://www.moma.org), where I help our visitors explore the depth of MoMA’s exhibitions and collection.
+### I'm a Senior Product Designer at [The Museum of Modern&nbsp;Art](https://www.moma.org), where I help our visitors explore the depth of MoMA’s exhibitions and collection.
 
 In collaboration with an amazing team, I have designed the [online ticketing checkout](https://visit.moma.org/select), [moma.org's global navigation](https://www.moma.org), [the digital visitor guide](https://www.moma.org/visit/guide), [single sign on](https://login.moma.org/login?state=hKFo2SAwS0VHTk4xdHlMZ2dnamZ1NUJyME1xcUZoVFlqYzlmTqFupWxvZ2luo3RpZNkgUFZaR094Y3pZcFFIWEJGbFhqdlRfdG9NTTJKSm9OYjCjY2lk2SA4N3djTVc0MWFxcmIwV2Q2dDBESThrZ2F1N3VXUnh4TQ&client=87wcMW41aqrb0Wd6t0DI8kgau7uWRxxM&protocol=oauth2&redirect_uri=https%3A%2F%2Fwww.moma.org%2Fauth%2Fcallback&response_type=code&scope=openid%20profile%20email&screen_hint=membership), [video channels](https://www.moma.org/calendar/channels/1), and more.
 
