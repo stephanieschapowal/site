@@ -1,70 +1,126 @@
+/* Wide hero image above main content */
+.post-header-image {
+	width: 80%;
+	max-width: 1000px;
+	margin: var(--space-lg) auto var(--space-xxl);
+}
 
+.post-header-image img {
+	border-radius: 12px;
+	width: 100%;
+}
 
-main{
+/* Main post content column */
+main.post {
 	position: relative;
 	width: 85%;
-	max-width: 1000px;
+	max-width: 800px;
 	margin: 0 auto;
-	padding-top: 3.2em;
+	padding: var(--space-md) 0 var(--space-xxl);
 }
 
 @media (min-width: 768px) {
-	main{
+	main.post {
 		width: 55%;
 	}
 }
 
-.body-content{
-	width: 100%;
-	margin: 0 auto;
-	padding: 2.6em 0 3.2em 0;
-}
-
-@media (min-width: 1440px) {
-	.body-content{
-		width: 65%;
-		max-width: 550px;
-	}
-}
-
-/*---------------------------HEADER---------------------------*/
-
-header{
-	padding-top: 5.6em;
-}
-
-svg.backarrow{
-	position: fixed;
-	top: 1.8em;
-	left: calc(50% - 20px);
-	z-index:10;
-}
-
-svg.square{
-	position: relative;
-	left: calc(50% - 14px);
-	margin-bottom: 24px;
-}
-
-img{
+/* Images inside post content */
+main.post img {
 	border-radius: 12px;
-	border-width: 1px;
+	width: 100%;
+	margin-bottom: var(--space-sm);
 }
 
-
-
-/*---------------------------CARDS---------------------------*/
-
-
-.post-grid{
-	width: 85%;
-	max-width: 1000px;
-	padding-left: 0;
-	/* padding-bottom: 4.8em; */
-	display:flex;
-	flex-direction: column;
-	justify-content: space-between;
+/* Three-up image gallery */
+.gallery {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	gap: var(--space-sm);
+	margin: var(--space-lg) 0;
 }
 
+.gallery img {
+	width: 100%;
+	margin-bottom: 0;
+}
 
+/* ---- Carousel ---- */
 
+.carousel {
+	position: relative;
+	overflow: hidden;
+	border-radius: 12px;
+	margin: var(--space-lg) 0;
+}
+
+.carousel-track {
+	display: flex;
+	transition: transform 0.4s ease;
+}
+
+.carousel-slide {
+	min-width: 100%;
+	flex-shrink: 0;
+}
+
+.carousel-slide img {
+	border-radius: 12px;
+	width: 65%;
+	margin-bottom: 0;
+	display: block;
+}
+
+/* Prev / Next buttons — override global fixed button style */
+.carousel-prev,
+.carousel-next {
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+	background: white;
+	color: var(--text-primary);
+	border: none;
+	border-radius: 50%;
+	width: 40px;
+	height: 40px;
+	font-size: 18px;
+	line-height: 1;
+	padding: 0;
+	cursor: pointer;
+	z-index: 2;
+	box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+	left: auto;
+}
+
+.carousel-prev {
+	left: 12px;
+}
+
+.carousel-next {
+	right: 12px;
+}
+
+/* Dot indicators */
+.carousel-dots {
+	display: flex;
+	justify-content: center;
+	gap: 8px;
+	padding: var(--space-sm) 0 0;
+}
+
+.carousel-dot {
+	width: 8px;
+	height: 8px;
+	border-radius: 50%;
+	border: none;
+	background: #ccc;
+	cursor: pointer;
+	padding: 0;
+	position: static;
+	font-size: 0;
+	box-shadow: none;
+}
+
+.carousel-dot.active {
+	background: var(--accent);
+}
