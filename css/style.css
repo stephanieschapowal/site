@@ -239,20 +239,20 @@ h4 {
 p,
 li {
 	font-size: 16px;
-	line-height: 22px;
+	line-height: 24px;
 	max-width: 600px;
 	margin: 0 auto;
 	text-align: center;
 
 	@media (min-width: 768px) {
 		font-size: 18px;
-		line-height: 24px;
+		line-height: 26px;
 	}
 }
 
 @media (min-width: 768px) {
 	p {
-		margin-bottom: 24px;
+		margin-bottom: var(--space-xs);
 
 		.project-description {
 			padding-top: var(--space-md);
