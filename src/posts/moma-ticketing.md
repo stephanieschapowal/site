@@ -1,9 +1,10 @@
 ---
 siteTitle: Stephanie Schapowal
-pageTitle: Online ticketing
+pageTitle: MoMA's Ticketing Checkout
+linkTitle: Online Ticketing Checkout
 pageClass: work
 layout: posts.html
-description: Streamlining the ticket-buying process for both visitors and staff
+description: Streamlining the ticket-buying process and cutting time to purchase in half
 img: /img/moma-ticketing/thumbnail-Ticketing.png
 cta: View case study
 tags: moma
@@ -18,7 +19,7 @@ related:
 
 ### MoMA’s online ticketing system was optimized for timed entry slots, not a seamless purchase experience
 
-During the pandemic, MoMA adopted a timed ticketing system for admission to prevent lines and ease crowding. To stand up this solution quickly during uncertain times, the Digital Product team had turned to a third party white label solution. While the white label did a great job of handling time slots, its six screen flow took an average of 7 minutes to complete, was saddled with confusing out-of-the-box copy, and was unable to support membership or Design Store upsells. With timed ticketing no longer necessary, our team took the opportunity to use ACME’s API to build an in-house ticketing solution.
+During the pandemic, MoMA adopted a timed ticketing system for admission to ease crowding in the galleries. To stand up this solution quickly during uncertain times, the Digital Product team had turned to a third party white label solution. While the white label did a great job of handling time slots, its six screen flow took an average of 7 minutes to complete, was saddled with confusing out-of-the-box copy, and was unable to support membership or Design Store upsells. With timed ticketing no longer necessary, our team took the opportunity to build an in-house ticketing solution.
 
 ![Overview of MoMA's old ticketing flow](/img/moma-ticketing/ticketing-before.png)
 <p class="caption">The old ticketing flow had six steps, and required visitors to sift through a lot of information to figure out which ticket types they were eligible for.</p>
@@ -46,14 +47,10 @@ One of our highest priorities was to radically shorten the amount of steps it to
 
 ### Directing users to the right tickets for them
 
-As the first step, our old flow asked users to identify themselves as a member, non-member, student, or affiliate. Users found some of the options unclear (“not a member” felt a bit negative), and the distinct pages led users to believe they were missing out on options available to them. I laid out the ticket types on one page, with general admission tickets, the most popular (and profitable) action at the top. Member guest tickets became a list item with a direction to log in, rather than the first decision all users make when buying a ticket. Free ticket types were moved to the bottom—these users are often very high-intent in finding the options they’re eligible for. 
+As the first step, our old flow asked users to identify themselves as a member, non-member, student, or affiliate. Users found some of the options unclear (“not a member” felt a bit negative), and the distinct pages led users to believe they were missing out on options available to them. I laid out the ticket types on one page, with general admission tickets, the most popular (and profitable) action at the top. Free ticket types were moved to the bottom—these users are often very high-intent in finding the options they’re eligible for. 
 
 ![Choosing the right type of ticket](/img/moma-ticketing/ticketing-fork.png)
 <p class="caption">The old fork (left) had a confusing hierarchy of ticket options. For the new flow, I chose to lay out the options in a linear, immediately actionable way.</p>
-
-Visitors with disabilities were eligible to receive a free ticket for a care partner, but they could only get these in person. We added the ability to reserve care partner tickets online, removing a hassle for these visitors during their lobby experience.
-
-![Enabling care partner tickets online](/img/moma-ticketing/ticketing-vwd.png)
 
 
 ### Choosing intuitive language

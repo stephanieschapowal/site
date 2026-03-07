@@ -4,10 +4,10 @@
 
         <a class="project-title" href="{{ post.url }}">
             <img class="card-image" src="{{post.data.img}}">
-            {{ post.data.pageTitle }}
+            {{ post.data.linkTitle }}
             <br>
-            {{ post.data.description }}
         </a>
+        <p class="caption">{{ post.data.description }}</p>
 
     </li>
     {% endfor %}

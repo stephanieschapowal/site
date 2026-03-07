@@ -1,6 +1,7 @@
 ---
 siteTitle: Stephanie Schapowal
-pageTitle: Digital Visitor Guide
+pageTitle: MoMA's Digital Visitor Guide and Map
+linkTitle: Digital Map
 pageClass: work
 layout: posts.html
 description: Harnessing MoMA’s collection data to improve wayfinding for visitors
