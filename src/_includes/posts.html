@@ -7,8 +7,8 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta name="author" content="Stephanie Schapowal">
 	<link rel="stylesheet" href="/css/style.css" />
-	<!-- <link rel="stylesheet" href="/css/typography.css" />
-	<link rel="stylesheet" href="/css/post.css" /> -->
+	<link rel="stylesheet" href="/css/post.css" />
+	<!-- <link rel="stylesheet" href="/css/typography.css" /> -->
 	<title>{{ title }}</title>
 
 	<!-- favicon -->
@@ -58,6 +58,12 @@
 	<p class="project-description">
 		{{ description }}
 	</p>
+
+	{% if headerImg %}
+	<div class="post-header-image">
+		<img src="{{ headerImg }}" alt="{{ pageTitle }}">
+	</div>
+	{% endif %}
 
 	<main class="post">
 		{{ content }}

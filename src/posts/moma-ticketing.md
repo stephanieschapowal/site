@@ -1,87 +1,99 @@
 ---
 siteTitle: Stephanie Schapowal
-pageTitle: MoMA's Ticketing Checkout
-linkTitle: Online Ticketing Checkout
+pageTitle: MoMA's Online Ticketing
+linkTitle: Online Ticketing
 pageClass: work
 layout: posts.html
-description: Streamlining the ticket-buying process and cutting time to purchase in half
+description: Streamlining the ticket-buying process for both visitors and staff and cutting time to purchase in half
 img: /img/moma-ticketing/thumbnail-Ticketing.png
+headerImg: /img/moma-ticketing/ticketing-header.png
 cta: View case study
 tags: moma
 related:
   - sweetpea
-  - moma-dvg
+  - myadvocate
 ---
-
-![Digital MoMA tickets](/img/moma-ticketing/ticketing-header.png)
 
 #### Background
 
-### MoMA’s online ticketing system was optimized for timed entry slots, not a seamless purchase experience
+### MoMA's online ticketing system was optimized for timed entry slots, not a seamless purchase experience
 
-During the pandemic, MoMA adopted a timed ticketing system for admission to ease crowding in the galleries. To stand up this solution quickly during uncertain times, the Digital Product team had turned to a third party white label solution. While the white label did a great job of handling time slots, its six screen flow took an average of 7 minutes to complete, was saddled with confusing out-of-the-box copy, and was unable to support membership or Design Store upsells. With timed ticketing no longer necessary, our team took the opportunity to build an in-house ticketing solution.
-
-![Overview of MoMA's old ticketing flow](/img/moma-ticketing/ticketing-before.png)
-<p class="caption">The old ticketing flow had six steps, and required visitors to sift through a lot of information to figure out which ticket types they were eligible for.</p>
-
-#### My role
-
-As part of this process, I gathered requirements from stakeholders across the museum (including those in marketing, membership, visitor engagement, and IT), developed user personas for our visitors, created high fidelity designs, and performed usability testing and A/B tests.
-
-#### Outcomes
-
-By focusing on an intuitive and accessible user experience, we saw revenue from online ticketing increase 4.5% in the first six months after launch. For our users, the average time to checkout was reduced by over 50%. The new design also provided a foundation for future experimentation and testing by our growth squad, leading to a successful membership upsell offer system, and the addition of digital wallet payments.
-
-We were also able to make critical improvements for staff, like growing marketing’s email subscription list, and easing requests of our lobby staff by optimizing our confirmation page and digital tickets to prepare visitors for their day at MoMA.
-
+During the pandemic, MoMA adopted a timed ticketing system for admission in order to ease crowding. To stand up this solution quickly during uncertain times, the Digital Product team had turned to a white label solution. While the white label did a great job of handling time slots, its six screen flow took an average of 7 minutes to complete, was saddled with confusing out-of-the-box copy, and was unable to support membership or Design Store upsells. With timed ticketing no longer necessary, our team took the opportunity to build a ticketing solution in-house.
 
 #### Approach
 
-### Trimming the checkout flow from six screens to three
+### Trimming down the checkout flow and getting visitors excited to visit MoMA
 
-One of our highest priorities was to radically shorten the amount of steps it took to buy a ticket. We wanted to optimize the experience for visitors buying tickets on their phones—often on the go during their trip to NYC. We decided on a three step checkout flow: select your tickets, enter your information, and a confirmation screen.
+- Trim down from six steps to three
+- Surface highest purchase volume paid tickets, but organize free tickets for access too
+- Encourage buying online to ease surge on lobby staff
+- Messaging an online-only discount
+- Assist membership and marketing goals
+- Help visitors feel prepared for their visit
 
-![Three step checkout flow](/img/moma-ticketing/ticketing-steps.png)
-<p class="caption">We reduced the new flow to encompass only three screens: selecting your date and tickets, entering your information, and a confirmation screen.</p>
+<div class="carousel">
+  <div class="carousel-track">
+    <div class="carousel-slide">
+      <img src="/img/moma-ticketing/ticketing-steps.png" alt="Three-step checkout flow">
+    </div>
+    <div class="carousel-slide">
+      <img src="/img/moma-ticketing/ticketing-fork.png" alt="Ticket type selection">
+    </div>
+    <div class="carousel-slide">
+      <img src="/img/moma-ticketing/ticketing-confirmation.png" alt="Confirmation screen and digital ticket">
+    </div>
+  </div>
+  <button class="carousel-prev" aria-label="Previous slide">←</button>
+  <button class="carousel-next" aria-label="Next slide">→</button>
+  <div class="carousel-dots">
+    <button class="carousel-dot active" aria-label="Slide 1"></button>
+    <button class="carousel-dot" aria-label="Slide 2"></button>
+    <button class="carousel-dot" aria-label="Slide 3"></button>
+  </div>
+</div>
 
+<p class="caption">Bold, color coded tickets helped staff quickly identify who needed an ID check while scanning tickets for entry.</p>
 
-### Directing users to the right tickets for them
+<script>
+(function () {
+	var track = document.querySelector('.carousel-track');
+	if (!track) return;
+	var slides = track.querySelectorAll('.carousel-slide');
+	var dots = document.querySelectorAll('.carousel-dot');
+	var current = 0;
 
-As the first step, our old flow asked users to identify themselves as a member, non-member, student, or affiliate. Users found some of the options unclear (“not a member” felt a bit negative), and the distinct pages led users to believe they were missing out on options available to them. I laid out the ticket types on one page, with general admission tickets, the most popular (and profitable) action at the top. Free ticket types were moved to the bottom—these users are often very high-intent in finding the options they’re eligible for. 
+	function goTo(index) {
+		current = (index + slides.length) % slides.length;
+		track.style.transform = 'translateX(-' + (current * 100) + '%)';
+		dots.forEach(function (d, i) {
+			d.classList.toggle('active', i === current);
+		});
+	}
 
-![Choosing the right type of ticket](/img/moma-ticketing/ticketing-fork.png)
-<p class="caption">The old fork (left) had a confusing hierarchy of ticket options. For the new flow, I chose to lay out the options in a linear, immediately actionable way.</p>
+	document.querySelector('.carousel-prev').addEventListener('click', function () { goTo(current - 1); });
+	document.querySelector('.carousel-next').addEventListener('click', function () { goTo(current + 1); });
+	dots.forEach(function (dot, i) {
+		dot.addEventListener('click', function () { goTo(i); });
+	});
+})();
+</script>
 
+#### Outcomes
 
-### Choosing intuitive language
+### By focusing on an intuitive and accessible user experience, we saw revenue from online ticketing increase 4.5% in the first six months after launch.
 
-The language we used throughout the ticketing flow felt unintuitive—influenced by timed ticket slots and all its policies, a third party checkout solution, and the legacy of the ticketing flow as a place to communicate visitor policy. All of this led to a lack of visitor confidence in checking out—users often gave up online and planned to buy a ticket in person.
-
-We tested the new language in the whole flow, including primary CTAs and progress bars, to ensure it felt intuitive to our users.
-
-![Progress bar and order summary](/img/moma-ticketing/ticketing-language.png)
-
-Our site’s main CTA of “Reserve timed tickets” was a bit of a mouthful. I took the opportunity to A/B test language variations for this CTA, and a simple “Tickets” won out, with 88% more ticket purchases than the original.
-
-![A/B test of different CTA options](/img/moma-ticketing/ticketing-ab.png)
-
-
-### Helping visitors get excited and prepared for their visit
-
-We added some of the policy that we removed from earlier in the flow to the confirmation page, where we had more space to illustrate and explain what visitors could expect. Most visitors often only research logistics (like hours and bag policy) before their visit, and we wanted to easily provide this information, but also point them to pages on the website that would prepare them for what to see.
-
-![Confirmation page](/img/moma-ticketing/ticketing-confirmation.png)
+For our users, the average time to checkout was reduced by over 50%. The new design also provided a foundation for future experimentation and testing by our growth squad, leading to a successful membership upsell offer system, and the addition of digital wallet payments. We were able to make critical improvements for staff, like growing marketing's email subscription list, and easing requests of our lobby staff by optimizing our confirmation page and digital tickets to prepare visitors for their day at MoMA.
 
 #### Team
 
-- Michelle Pae (Director of Digital Product)
-- Madhav Tankha (Assistant Director of UX)
-- John Cline (Director of Engineering)
-- Rik Vanmechelen (Director of IT Apps)
-- Debora Domass (Product manager)
-- Deepa Ahmed (Project manager)
-- Kengo Ikeda-Iyeki (Frontend engineer)
-- Anthony Hersey (Fullstack engineer)
-- John Halderman (Fullstack engineer)
-- James Duffy (Fullstack engineer)
-
+- Michelle Pae, director of digital product
+- Rik Van Mechelen, director of IT apps
+- John Cline, director of engineering
+- Madhav Tankha, assistant director of UX
+- Debora Domass, product manager
+- Kengo Ikeda-Iyeki, front end developer
+- Anthony Hersey, back end developer
+- John Halderman, back end developer
+- James Duffy, back end developer
+- Tyler Cole, product manager
+- Deepa Ahmed, project manager
