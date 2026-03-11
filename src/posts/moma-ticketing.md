@@ -20,39 +20,56 @@ related:
 
 During the pandemic, MoMA adopted a timed ticketing system for admission in order to ease crowding. To stand up this solution quickly during uncertain times, the Digital Product team had turned to a white label solution. While the white label did a great job of handling time slots, its six screen flow took an average of 7 minutes to complete, was saddled with confusing out-of-the-box copy, and was unable to support membership or Design Store upsells. With timed ticketing no longer necessary, our team took the opportunity to build a ticketing solution in-house.
 
+My role in the project was to gather requirements from stakeholders across the museum (including those in marketing, membership, visitor engagement, and IT), develop user personas for our visitors, create high fidelity designs, and perform usability testing and A/B tests.
+
 #### Approach
 
-### Trimming down the checkout flow and getting visitors excited to visit MoMA
+### By trimming down the checkout flow, we were able to sell tickets faster, and get visitors excited to visit MoMA
 
-- Trim down from six steps to three
-- Surface highest purchase volume paid tickets, but organize free tickets for access too
-- Encourage buying online to ease surge on lobby staff
-- Messaging an online-only discount
-- Assist membership and marketing goals
-- Help visitors feel prepared for their visit
+Our goal was to increase the percentage of tickets bought online vs. in the lobby—this was guaranteed revenue for the museum, and eased demands on our lobby staff. While our greatest tool was an online-only discount, we also shortened the flow from six steps to three to serve our primarily mobile ticket buyers, and audited all language to ensure maximum clarity. Surfacing our paid tickets types (highest purchase volume) to the top of the simplified ticketing list allowed most visitors to be on their way quickly.
+
+We also prioritized preparing visitors for their day at MoMA by adding helpful resources and policies to the confirmation page and email. 
 
 <div class="carousel">
   <div class="carousel-track">
     <div class="carousel-slide">
-      <img src="/img/moma-ticketing/ticketing-steps.png" alt="Three-step checkout flow">
+      <img src="/img/moma-ticketing/ticketing-carousel-threestep.png" alt="Three-step checkout flow">
+      <p class="caption">I reduced the new flow to encompass only three screens: selecting your date and tickets, entering your information, and a confirmation screen.</p>
     </div>
     <div class="carousel-slide">
-      <img src="/img/moma-ticketing/ticketing-fork.png" alt="Ticket type selection">
+      <img src="/img/moma-ticketing/ticketing-carousel-box.png" alt="Ticket type selection">
+      <p class="caption">A persistent order summary box and progress bar allowed us to trim the “Review your order” page.</p>
     </div>
     <div class="carousel-slide">
-      <img src="/img/moma-ticketing/ticketing-confirmation.png" alt="Confirmation screen and digital ticket">
+      <img src="/img/moma-ticketing/ticketing-carousel-tickettypes.png" alt="Confirmation screen and digital ticket">
+      <p class="caption">All paid ticket types were laid out in a scannable list on the first page of the flow, rather than prioritizing members (a lower proportion of ticket buyers).</p>
+    </div>
+    <div class="carousel-slide">
+      <img src="/img/moma-ticketing/ticketing-carousel-nav.png" alt="Confirmation screen and digital ticket">
+      <p class="caption">Simplifying the main ticketing CTA in the navigation from “Reserve timed tickets” to just “Tickets”, increased traffic to the ticketing flow by X%.</p>
+    </div>
+    <div class="carousel-slide">
+      <img src="/img/moma-ticketing/ticketing-carousel-confirmation.png" alt="Confirmation screen and digital ticket">
+      <p class="caption">The confirmation page is one of our only opportunities to share visitor policies and resources. A timely reminder as most visitors buy tickets same day.</p>
+    </div>
+    <div class="carousel-slide">
+      <img src="/img/moma-ticketing/ticketing-carousel-tickets.png" alt="Confirmation screen and digital ticket">
+      <p class="caption">Bold, color coded tickets helped staff quickly identify who needed an ID check while scanning tickets for entry.</p>
     </div>
   </div>
   <button class="carousel-prev" aria-label="Previous slide">←</button>
-  <button class="carousel-next" aria-label="Next slide">→</button>
   <div class="carousel-dots">
     <button class="carousel-dot active" aria-label="Slide 1"></button>
     <button class="carousel-dot" aria-label="Slide 2"></button>
     <button class="carousel-dot" aria-label="Slide 3"></button>
+    <button class="carousel-dot" aria-label="Slide 4"></button>
+    <button class="carousel-dot" aria-label="Slide 5"></button>
+    <button class="carousel-dot" aria-label="Slide 6"></button>
   </div>
+  <button class="carousel-next" aria-label="Next slide">→</button>
 </div>
 
-<p class="caption">Bold, color coded tickets helped staff quickly identify who needed an ID check while scanning tickets for entry.</p>
+
 
 <script>
 (function () {
@@ -82,7 +99,9 @@ During the pandemic, MoMA adopted a timed ticketing system for admission in orde
 
 ### By focusing on an intuitive and accessible user experience, we saw revenue from online ticketing increase 4.5% in the first six months after launch.
 
-For our users, the average time to checkout was reduced by over 50%. The new design also provided a foundation for future experimentation and testing by our growth squad, leading to a successful membership upsell offer system, and the addition of digital wallet payments. We were able to make critical improvements for staff, like growing marketing's email subscription list, and easing requests of our lobby staff by optimizing our confirmation page and digital tickets to prepare visitors for their day at MoMA.
+For our users, the average time to checkout was reduced by over 50%. The new design also provided a foundation for future experimentation and testing by our growth squad, leading to a successful membership upsell offer system, and the addition of digital wallet payments.
+
+We were able to make critical improvements for staff, like growing marketing’s email subscription list, and easing requests of our lobby staff by including visitor policies on the confirmation page.
 
 #### Team
 

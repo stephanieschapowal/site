@@ -225,9 +225,9 @@ h4 {
 	padding: var(--space-xs) var(--space-sm) var(--space-xs) var(--space-sm);
 	margin-bottom: var(--space-md);
 	width: fit-content;
-	background-color: #DEE07E;
 	border-radius: 1em;
 	font-weight: 400;
+	color: var(--accent);
 
 
 	@media (min-width: 768px) {
@@ -242,7 +242,6 @@ li {
 	line-height: 24px;
 	max-width: 600px;
 	margin: 0 auto;
-	text-align: center;
 
 	@media (min-width: 768px) {
 		font-size: 18px;
@@ -301,8 +300,3 @@ a:hover {
 a.button {
 	text-decoration: none;
 }
-
-/* p button {
-	display: flex;
-	place-self: center;
-} */
