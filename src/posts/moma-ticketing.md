@@ -4,7 +4,7 @@ pageTitle: MoMA's Online Ticketing
 linkTitle: Online Ticketing
 pageClass: work
 layout: posts.html
-description: Streamlining the ticket-buying process for both visitors and staff and cutting time to purchase in half
+description: Streamlining the ticket-buying process and cutting time to purchase in half
 img: /img/moma-ticketing/thumbnail-Ticketing.png
 headerImg: /img/moma-ticketing/ticketing-header.png
 cta: View case study
