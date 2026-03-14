@@ -1,3 +1,10 @@
+@font-face {
+	font-family: 'GT America Trial';
+	src: url('../fonts/GT-America-Standard-Regular-Trial.otf') format('opentype');
+	font-weight: 200;
+	font-style: normal;
+}
+
 * {
 	margin: 0;
 	padding: 0;
@@ -7,18 +14,21 @@
 	scroll-behavior: smooth;
 
 	/* color variables */
-	--background: #FDFCFB;
-	--text-primary: #000;
-	--circle: #8F920B;
-	--accent: #77790A;
+	--background: #fdfcfb;
+	--text-primary: #212029;
+	--circle: #8f920b;
+	--accent: #8f920b;
 
 	/* spacing variables */
-	--space-xs: 0.6rem;
-	--space-sm: 1.2rem;
-	--space-md: 1.6rem;
-	--space-lg: 2.4rem;
-	--space-xl: 3.2rem;
-	--space-xxl: 5.6rem;
+	--space-xs: 0.5rem;
+	--space-sm: 1rem;
+	--space-md: 1.5rem;
+	--space-lg: 3rem;
+	--space-xl: 4rem;
+	--space-xxl: 6rem;
+
+	/* effects */
+	--shadow: 0 0 10px #E4E4E480;
 }
 
 body {
@@ -28,11 +38,13 @@ body {
 
 	/* typography */
 	line-height: 1.5;
-	font-family: Arial, sans-serif;
+	font-family: 'GT America Trial', Arial, sans-serif;
 	color: var(--text-primary);
 	font-weight: 400;
-	letter-spacing: .01rem;
 	text-wrap: pretty;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	font-smooth: never;
 
 	a {
 		color: var(--text-primary);
@@ -46,7 +58,7 @@ main {
 	width: 85%;
 	max-width: 800px;
 	margin: 0 auto;
-	padding: var(--space-md) 0 var(--space-xxl);
+	padding: var(--space-lg) 0 var(--space-xxl);
 
 	@media (min-width: 768px) {
 		width: 55%;
@@ -60,7 +72,7 @@ img {
 /*---------------------------HEADER---------------------------*/
 
 header {
-	padding-top: var(--space-xxl);
+	padding-top: var(--space-lg);
 
 	a {
 		color: var(--text-primary);
@@ -109,8 +121,8 @@ svg.circle {
 
 a.project-title {
 	color: var(--text-primary);
-	font-size: 18px;
-	line-height: 24px;
+	font-size: 1.125rem;
+	line-height: 1.5rem;
 	text-decoration: none;
 }
 
@@ -133,9 +145,7 @@ a.project-title {
 	/* transform: rotate(-0.75turn); */
 }
 
-/* .p-about .divider-word {
-	padding: 0 0 var(--space-sm) 0;
-} */
+
 
 /* posts */
 
@@ -144,7 +154,7 @@ a.project-title {
 	margin: 0 auto;
 	padding: var(--space-md) 0 var(--space-xl) 0;
 
-	@media (min-width > 768px) {
+	@media (min-width: 768px) {
 		max-width: 550px;
 	}
 }
@@ -152,7 +162,7 @@ a.project-title {
 svg.square {
 	position: relative;
 	left: calc(50% - 14px);
-	margin-bottom: 24px;
+	margin-bottom: var(--space-md);
 }
 
 
@@ -172,13 +182,15 @@ a.project-title {
 }
 
 h1 {
-	font-size: 28px;
-	/* line-height: 32px; */
-	font-weight: 100;
+	font-size: 2rem;
+	line-height: 2.5rem;
+	font-weight: 400;
 
 	@media (min-width: 768px) {
-		font-size: 32px;
-		/* line-height: 30px; */
+		font-size: 2.75rem;
+		/* 44px — Figma */
+		line-height: 3.25rem;
+		/* 52px — Figma */
 	}
 
 	&:hover {
@@ -187,20 +199,22 @@ h1 {
 }
 
 h2 {
-	font-size: 32px;
-	font-weight: 100;
+	font-size: 1.5rem;
+	line-height: 2rem;
+	font-weight: 400;
+	max-width: 800px;
 	padding-top: var(--space-sm);
 
 	@media (min-width: 768px) {
-		font-size: 44px;
-		line-height: 52px;
+		font-size: 1.875rem;
+		line-height: 2.25rem;
 	}
 }
 
 h3 {
-	font-size: 20px;
-	font-weight: 100;
-	line-height: 24px;
+	font-size: 1.125rem;
+	font-weight: 400;
+	line-height: 1.75rem;
 	padding: var(--space-xs) 0 var(--space-md) 0;
 
 	color: var(--text-primary);
@@ -209,8 +223,10 @@ h3 {
 
 	@media (min-width: 768px) {
 		width: 80%;
-		font-size: 24px;
-		line-height: 30px;
+		font-size: 1.375rem;
+		/* 22px — Figma */
+		line-height: 1.75rem;
+		/* 28px — Figma */
 	}
 }
 
@@ -219,44 +235,39 @@ h3 {
 } */
 
 h4 {
-	font-size: 16px;
-	line-height: 22px;
-	margin: var(--space-lg) auto 0 auto;
-	padding: var(--space-xs) var(--space-sm) var(--space-xs) var(--space-sm);
-	margin-bottom: var(--space-md);
+	font-size: 1rem;
+	line-height: 1.375rem;
+	margin: var(--space-lg) auto var(--space-md);
+	padding: var(--space-xs) var(--space-sm);
 	width: fit-content;
 	border-radius: 1em;
 	font-weight: 400;
 	color: var(--accent);
 
-
 	@media (min-width: 768px) {
-		font-size: 18px;
-		line-height: 24px;
+		font-size: 1.125rem;
+		line-height: 1.5rem;
 	}
 }
 
 p,
 li {
-	font-size: 16px;
-	line-height: 24px;
+	font-size: 1rem;
+	line-height: 1.5rem;
 	max-width: 600px;
 	margin: 0 auto;
 
 	@media (min-width: 768px) {
-		font-size: 18px;
-		line-height: 26px;
+		font-size: 1.125rem;
+		/* 18px — Figma */
+		line-height: 1.6rem;
+		/* 24px — Figma */
 	}
 }
 
 @media (min-width: 768px) {
 	p {
 		margin-bottom: var(--space-xs);
-
-		.project-description {
-			padding-top: var(--space-md);
-			width: 50%;
-		}
 	}
 }
 
@@ -264,13 +275,14 @@ p.project-description {
 	text-align: center;
 	padding-top: var(--space-sm);
 	width: 90%;
+	max-width: 600px;
 	margin: 0 auto;
 }
 
 .caption {
-	font-size: 14px;
-	line-height: 18px;
-	padding-bottom: var(--space-lg);
+	font-size: 1rem;
+	line-height: 1.25rem;
+	padding-bottom: var(--space-md);
 }
 
 ul {
@@ -285,7 +297,7 @@ button {
 	border: none;
 	border-radius: 50px;
 	padding: var(--space-xs);
-	font-family: Arial, Helvetica, sans-serif;
+	font-family: 'GT America Trial', Arial, sans-serif;
 	font-size: 18px;
 	position: fixed;
 	top: var(--space-md);
