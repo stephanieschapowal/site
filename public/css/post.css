@@ -125,17 +125,18 @@ main.post img {
 	background: var(--accent);
 }
 
+@media (max-width: 767px) {
+	.carousel-prev,
+	.carousel-next {
+		display: none;
+	}
 
-.embla__viewport {
-	overflow: hidden;
-}
+	.carousel-dots {
+		gap: 14px;
+	}
 
-.embla__container {
-	display: flex;
-	touch-action: pan-y pinch-zoom;
-}
-
-.embla__slide {
-	flex: 0 0 100%;
-	min-width: 0;
+	.carousel-dot {
+		width: 12px;
+		height: 12px;
+	}
 }

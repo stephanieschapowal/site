@@ -29,19 +29,6 @@ Upon reopening in 2020, MoMA’s digital product team released an MVP digital vi
 
 The original DVG map was a link to a PDF. Unsurprisingly, our users found this difficult to read and navigate on their phones. The graphic design team also found it tedious to update, and visitor engagement still had to field hundreds of questions a day. We had the data users were looking for, like artwork locations and whether an exhibition is on view, but it wasn’t centralized for the onsite visitor.
 
-<div class="embla">
-  <div class="embla__viewport">
-    <div class="embla__container">
-      <div class="embla__slide">Slide 1</div>
-      <div class="embla__slide">Slide 2</div>
-      <div class="embla__slide">Slide 3</div>
-    </div>
-  </div>
-
-  <button class="embla__prev">Scroll to prev</button>
-  <button class="embla__next">Scroll to next</button>
-</div>
-
 Our team decided to create an interactive, data-rich map of the museum, accessible from our website. The map integrates with our collection and exhibition data, making it easy for visitors to find their favorite artworks and discover new ones (and eliminated an extra resource for our colleagues to update).
 
 
