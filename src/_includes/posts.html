@@ -41,16 +41,7 @@
 <body class="p-{{ pageClass }}">
 
 	<header>
-		<a href="/">
-			<button>← All projects</button>
-			<!-- <svg class="circle" height="40" width="40" xmlns="http://www.w3.org/2000/svg">
-				<circle transform="translate(50%,2%)" r="20" cx="50%" cy="20" fill="#8F920B" />
-			</svg> -->
-		</a>
-
-		<a href="/">
-			<h1>{{ siteTitle }}</h1>
-		</a>
+		<a href="/" class="header-pill">← {{ siteTitle }}</a>
 	</header>
 
 	<h2>{{ pageTitle }}</h2>
@@ -67,11 +58,6 @@
 
 	<main class="post">
 		{{ content }}
-
-
-		<svg class="square" width=100% height="28" xmlns="http//www.w3.org/2000/svg">
-			<rect width="28" height="28" fill="#8F920B" />
-		</svg>
 
 		{% if related %}
 		<div class="related-posts">
