@@ -1,12 +1,19 @@
-/* Wide hero image above main content */
-.post-header-image {
-	width: 80%;
+.project-header {
+	width: 85%;
 	max-width: 1000px;
-	margin: var(--space-xl) auto;
+	margin: var(--space-lg) auto;
 }
 
-.post-header-image img {
+
+/* Wide hero image above main content */
+.post-header-image {
 	width: 100%;
+	max-width: 1000px;
+	margin: var(--space-lg) auto;
+
+	@media (min-width: 768px) {
+		width: 80%;
+	}
 }
 
 /* Main post content column */
@@ -49,7 +56,6 @@ main.post img {
 	position: relative;
 	overflow: hidden;
 	margin: var(--space-lg) 0;
-	max-height: 600px;
 }
 
 .carousel-track {
@@ -68,18 +74,22 @@ main.post img {
 	display: block;
 }
 
-/* Prev / Next buttons — override global fixed button style */
+.carousel-controls {
+	display: flex;
+	justify-content: center;
+	gap: var(--space-md);
+	align-items: center;
+}
+
 .carousel-prev,
 .carousel-next {
 
-
-
 	@media (min-width: 768px) {
-		position: absolute;
-		top: 50%;
-		transform: translateY(-50%);
+		position: relative;
+		/* top: 50%; */
+		/* transform: translateY(-50%); */
 		color: var(--text-primary);
-		background-color: none;
+		background-color: var(--background);
 		border: none;
 		width: 40px;
 		height: 40px;
@@ -93,11 +103,11 @@ main.post img {
 }
 
 .carousel-prev {
-	left: 12px;
+	transform: rotate(90deg);
 }
 
 .carousel-next {
-	right: 12px;
+	transform: rotate(-90deg);
 }
 
 /* Dot indicators */
@@ -105,14 +115,14 @@ main.post img {
 	display: flex;
 	justify-content: center;
 	gap: 8px;
-	padding: var(--space-sm) 0 0;
+	/* padding: var(--space-sm) 0 0; */
 }
 
 .carousel-dot {
-	width: 8px;
-	height: 8px;
+	width: 12px;
+	height: 12px;
 	border-radius: 50%;
-	border: 1px solid var(--accent);
+	border: 2px solid var(--accent);
 	background: var(--background);
 	cursor: pointer;
 	padding: 0;
@@ -126,6 +136,7 @@ main.post img {
 }
 
 @media (max-width: 767px) {
+
 	.carousel-prev,
 	.carousel-next {
 		display: none;

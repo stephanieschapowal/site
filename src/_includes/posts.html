@@ -41,34 +41,42 @@
 <body class="p-{{ pageClass }}">
 
 	<header>
-		<a href="/" class="header-pill">← {{ siteTitle }}</a>
+		<a href="/" class="header-pill">{{ siteTitle }}</a>
 	</header>
 
-	<h2>{{ pageTitle }}</h2>
+	<div class="project-header">
+		<h1>{{ pageTitle }}</h1>
 
-	<p class="project-description">
-		{{ description }}
-	</p>
+		<p class="project-description">
+			{{ description }}
+		</p>
 
-	{% if headerImg %}
-	<div class="post-header-image">
-		<img src="{{ headerImg }}" alt="{{ pageTitle }}">
+		{% if headerImg %}
+		<div class="post-header-image">
+			<img src="{{ headerImg }}" alt="{{ pageTitle }}">
+		</div>
+		{% endif %}
 	</div>
-	{% endif %}
 
 	<main class="post">
 		{{ content }}
 
+
 		{% if related %}
 		<div class="related-posts">
-			<h2>More projects</h2>
+			<h2 class="more-projects">More projects</h2>
 			<ul class="postlist">
+
 				{% assign related_posts = collections.posts | where_related: related %}
+
 				{% for post in related_posts %}
+
 				<li class="content-card">
 					<a class="project-title" href="{{ post.url }}">
 						<img class="card-image" src="{{ post.data.img }}">
+
 						{{ post.data.pageTitle }}
+
 					</a>
 				</li>
 				{% endfor %}
@@ -76,8 +84,6 @@
 		</div>
 		{% endif %}
 	</main>
-
-	<script type="module" src="/js/embla.js"></script>
 </body>
 
 </html>

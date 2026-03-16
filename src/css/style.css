@@ -17,7 +17,7 @@
 	--background: #fdfcfb;
 	--text-primary: #212029;
 	--circle: #8f920b;
-	--accent: #8f920b;
+	--accent: #2C1CC2;
 
 	/* spacing variables */
 	--space-xs: 0.5rem;
@@ -83,72 +83,20 @@ header {
 	display: inline-flex;
 	align-items: center;
 	gap: 0.5rem;
-	background: var(--background);
+	background: #ECEDA5;
 	padding: 0.5rem 1rem;
 	border-radius: 1.5rem;
 	box-shadow: var(--shadow);
-	font-size: 1.875rem;
-	line-height: 2.25rem;
+	font-size: 1.25rem;
+	line-height: 1.75rem;
 	color: var(--text-primary);
 	text-decoration: none;
 	white-space: nowrap;
 
 	@media (min-width: 768px) {
-		font-size: 1.5rem;
-		line-height: 2rem;
+		font-size: 1.375rem;
+		line-height: 1.75rem;
 	}
-}
-
-
-/*---------------------------CARDS---------------------------*/
-
-.postlist {
-	width: 100%;
-	padding-left: 0;
-	display: flex;
-	flex-direction: column;
-	justify-content: space-between;
-
-	@media (min-width: 768px) {
-		flex-direction: row;
-	}
-}
-
-.content-card {
-	width: 100%;
-	text-align: center;
-	flex: 0 0 47%;
-	list-style-type: none;
-
-	@media (min-width: 768px) {
-		flex: 0 0 48%;
-	}
-}
-
-a.project-title {
-	color: var(--text-primary);
-	font-size: 1.125rem;
-	line-height: 1.5rem;
-	text-decoration: none;
-}
-
-.card-image {
-	padding-bottom: var(--space-xs);
-}
-
-.related-posts {
-	display: flex;
-	flex-direction: column;
-	gap: var(--space-lg);
-}
-
-.divider-word {
-	position: relative;
-	width: fit-content;
-	margin: auto;
-	padding: var(--space-xl) 0 var(--space-sm) 0;
-	color: var(--accent);
-	/* transform: rotate(-0.75turn); */
 }
 
 
@@ -165,12 +113,6 @@ a.project-title {
 	}
 }
 
-/* svg.square {
-	position: relative;
-	left: calc(50% - 14px);
-	margin-bottom: var(--space-md);
-} */
-
 
 
 /*---------------------------CARDS---------------------------*/
@@ -184,7 +126,6 @@ p.caption,
 a.project-title {
 	text-align: center;
 	margin: 0 auto;
-	width: 90%;
 }
 
 h1 {
@@ -194,9 +135,7 @@ h1 {
 
 	@media (min-width: 768px) {
 		font-size: 2.75rem;
-		/* 44px — Figma */
 		line-height: 3.25rem;
-		/* 52px — Figma */
 	}
 
 	&:hover {
@@ -205,8 +144,8 @@ h1 {
 }
 
 h2 {
-	font-size: 1.5rem;
-	line-height: 2rem;
+	font-size: 1.375rem;
+	line-height: 1.75rem;
 	font-weight: 400;
 	max-width: 800px;
 	padding-top: var(--space-sm);
@@ -218,11 +157,10 @@ h2 {
 }
 
 h3 {
-	font-size: 1.125rem;
-	font-weight: 400;
+	font-size: 1.25rem;
 	line-height: 1.75rem;
+	font-weight: 400;
 	padding: var(--space-xs) 0 var(--space-md) 0;
-
 	color: var(--text-primary);
 	text-underline-offset: 3px;
 	text-decoration-thickness: 2px;
@@ -230,23 +168,15 @@ h3 {
 	@media (min-width: 768px) {
 		width: 80%;
 		font-size: 1.375rem;
-		/* 22px — Figma */
 		line-height: 1.75rem;
-		/* 28px — Figma */
 	}
 }
-
-/* a {
-	text-decoration-color: var(--circle);
-} */
 
 h4 {
 	font-size: 1rem;
 	line-height: 1.375rem;
 	margin: var(--space-lg) auto var(--space-md);
-	padding: var(--space-xs) var(--space-sm);
 	width: fit-content;
-	border-radius: 1em;
 	font-weight: 400;
 	color: var(--accent);
 
@@ -256,24 +186,16 @@ h4 {
 	}
 }
 
-p,
-li {
+p {
 	font-size: 1rem;
-	line-height: 1.5rem;
+	line-height: 1.6rem;
 	max-width: 600px;
-	margin: 0 auto;
+	margin: 0 auto var(--space-sm);
 
 	@media (min-width: 768px) {
 		font-size: 1.125rem;
-		/* 18px — Figma */
-		line-height: 1.6rem;
-		/* 24px — Figma */
-	}
-}
-
-@media (min-width: 768px) {
-	p {
-		margin-bottom: var(--space-xs);
+		line-height: 1.65rem;
+		width: 90%;
 	}
 }
 
@@ -287,7 +209,7 @@ p.project-description {
 
 .caption {
 	font-size: 1rem;
-	line-height: 1.25rem;
+	line-height: 1.4rem;
 	padding-bottom: var(--space-md);
 }
 
@@ -303,4 +225,77 @@ a:hover {
 
 a.button {
 	text-decoration: none;
+}
+
+/*---------------------------CARDS---------------------------*/
+
+.postlist {
+	width: 100%;
+	padding-left: 0;
+	display: flex;
+	flex-direction: column;
+	margin-top: var(--space-md);
+
+	@media (min-width: 768px) {
+		flex-direction: row;
+		justify-content: space-between;
+	}
+}
+
+.content-card {
+	width: 100%;
+	text-align: center;
+	flex: 0 0 47%;
+	list-style-type: none;
+
+	@media (min-width: 768px) {
+		flex: 0 0 46%;
+	}
+}
+
+a.project-title {
+	color: var(--text-primary);
+	font-size: 1rem;
+	line-height: 1.5rem;
+	text-decoration: none;
+
+	@media (min-width: 768px) {
+		font-size: 1.25rem;
+		line-height: 1.6rem;
+	}
+}
+
+p.card-caption {
+	font-size: 1rem;
+	line-height: 1.375rem;
+	margin-top: var(--space-xs);
+
+	@media (min-width: 768px) {
+		font-size: 1rem;
+		line-height: 1.375rem;
+	}
+}
+
+.card-image {
+	padding-bottom: var(--space-sm);
+}
+
+/* related posts */
+
+.related-posts {
+	display: flex;
+	flex-direction: column;
+	margin-top: var(--space-xl);
+}
+
+.divider-word {
+	position: relative;
+	width: fit-content;
+	margin: auto;
+	padding: var(--space-xl) 0 var(--space-sm) 0;
+	color: var(--accent);
+}
+
+h2.more-projects {
+	margin-bottom: var(--space-sm);
 }
