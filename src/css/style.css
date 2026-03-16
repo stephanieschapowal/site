@@ -106,7 +106,7 @@ header {
 .body-content {
 	width: 100%;
 	margin: 0 auto;
-	padding: var(--space-md) 0 var(--space-xl) 0;
+	padding-bottom: var(--space-xl) 0;
 
 	@media (min-width: 768px) {
 		max-width: 550px;
@@ -245,12 +245,12 @@ a.button {
 .content-card {
 	width: 100%;
 	text-align: center;
-	flex: 0 0 47%;
+	flex: 0 0 48%;
 	list-style-type: none;
 
-	@media (min-width: 768px) {
-		flex: 0 0 46%;
-	}
+	/* @media (min-width: 768px) {
+		flex: 0 0 47%;
+	} */
 }
 
 a.project-title {

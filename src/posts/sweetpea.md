@@ -5,6 +5,7 @@ pageClass: work
 layout: posts.html
 description: A dating app that recruits your friends to play wingman
 img: /img/bh-sp/thumbnail-SP.jpg
+headerImg: /img/bh-sp/thumbnail-SP.jpg
 cta: View case study
 tags: 
 - bh
@@ -12,8 +13,6 @@ related:
 - myadvocate
 - moma-dvg
 ---
-
-![alt text](/img/bh-sp/thumbnail-SP.jpg)
 
 <div class="body-content">
 

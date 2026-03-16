@@ -1,5 +1,5 @@
 <ul class="postlist">
-    {% for post in collections.moma reversed %}
+    {%- for post in collections.moma reversed %}
     <li class="content-card">
         <a class="project-title" href="{{ post.url }}">
             <img class="card-image" src="{{post.data.img}}">
@@ -8,5 +8,5 @@
         </a>
         <p class="card-caption">{{ post.data.description }}</p>
     </li>
-    {% endfor %}
+    {%- endfor %}
 </ul>
