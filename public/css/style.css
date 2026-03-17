@@ -16,7 +16,7 @@
 	/* color variables */
 	--background: #fdfcfb;
 	--text-primary: #212029;
-	--circle: #8f920b;
+	--text-secondary: #656377;
 	--accent: #2C1CC2;
 
 	/* spacing variables */
@@ -211,6 +211,7 @@ p.project-description {
 	font-size: 1rem;
 	line-height: 1.4rem;
 	padding-bottom: var(--space-md);
+	padding-top: var(--space-sm);
 }
 
 ul {

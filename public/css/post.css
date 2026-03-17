@@ -28,7 +28,7 @@ main.post {
 /* Images inside post content */
 main.post img {
 	width: 100%;
-	margin-bottom: var(--space-sm);
+	margin-top: var(--space-md);
 }
 
 /* Three-up image gallery */
@@ -116,7 +116,7 @@ main.post img {
 	width: 12px;
 	height: 12px;
 	border-radius: 50%;
-	border: 2px solid var(--accent);
+	border: 2px solid var(--text-secondary);
 	background: var(--background);
 	cursor: pointer;
 	padding: 0;
@@ -126,7 +126,7 @@ main.post img {
 }
 
 .carousel-dot.active {
-	background: var(--accent);
+	background: var(--text-secondary);
 }
 
 @media (max-width: 767px) {
