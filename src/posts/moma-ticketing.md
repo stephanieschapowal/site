@@ -10,7 +10,7 @@ headerImg: /img/moma-ticketing/ticketing-header.png
 cta: View case study
 tags: moma
 related:
-  - sweetpea
+  - moma-dvg
   - myadvocate
 ---
 

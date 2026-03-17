@@ -5,7 +5,7 @@ pageClass: work
 layout: posts.html
 description: A marketing site that brings warmth and clarity to estate planning
 img: /img/bh-ma/thumbnail-MA.png
-cta: View case study
+headerImg: /img/moma-ticketing/ticketing-header.png
 tags:
   - bh
 related:

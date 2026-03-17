@@ -22,10 +22,12 @@ tags: nav
 
 ### I was a designer at [Big Human](https://www.bighuman.com/), a full-service product studio. I&nbsp;was involved with every step of the product process, from branding to high fidelity design.
 
+{% include "postlist-bh.html" %}
+
 
 <p class="divider-word">A bit about me—</p>
 
-### Prior to life as a product designer, I designed primarily for physical spaces and nonprofits. I created brand activations with [Imprint Projects](https://imprintprojects.com/), swam with [+POOL](https://pluspool.com/), and worked with community groups to define public space with [middle Of brOad studio](https://www.instagram.com/middleofbroadstudio/?hl=en). I&nbsp;received a BFA in graphic design from VCU.
+### Prior to life as a product designer, I designed primarily for physical spaces and nonprofits. I&nbsp;created brand activations with [Imprint Projects](https://imprintprojects.com/), swam with [+POOL](https://pluspool.com/), and worked with community groups to define public space with [middle Of brOad studio](https://www.instagram.com/middleofbroadstudio/?hl=en). I&nbsp;received a BFA in graphic design from VCU.
 
 
 <p class="divider-word">Get in touch:</p>
