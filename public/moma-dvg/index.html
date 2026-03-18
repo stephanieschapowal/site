@@ -108,36 +108,6 @@
 </button>
   </div>
 </div>
-<script>
-(function () {
-	var track = document.querySelector('.carousel-track');
-	if (!track) return;
-	var slides = track.querySelectorAll('.carousel-slide');
-	var dots = document.querySelectorAll('.carousel-dot');
-	var current = 0;
-
-	function goTo(index) {
-		current = (index + slides.length) % slides.length;
-		track.style.transform = 'translateX(-' + (current * 100) + '%)';
-		dots.forEach(function (d, i) {
-			d.classList.toggle('active', i === current);
-		});
-	}
-
-	document.querySelector('.carousel-prev').addEventListener('click', function () { goTo(current - 1); });
-	document.querySelector('.carousel-next').addEventListener('click', function () { goTo(current + 1); });
-	dots.forEach(function (dot, i) {
-		dot.addEventListener('click', function () { goTo(i); });
-	});
-
-	var touchStartX = 0;
-	track.addEventListener('touchstart', function (e) { touchStartX = e.touches[0].clientX; }, { passive: true });
-	track.addEventListener('touchend', function (e) {
-		var diff = touchStartX - e.changedTouches[0].clientX;
-		if (Math.abs(diff) > 40) goTo(diff > 0 ? current + 1 : current - 1);
-	}, { passive: true });
-})();
-</script>
 <h4>Outcomes</h4>
 <h3>Our updates resulted in much higher engagement with the map and other moma.org content.</h3>
 <p>Following our updates, the average DVG user session duration increased from 12 to 28 seconds (2.3x). Our lobby staff has reported that the map integration with the rest of the site has empowered users to find artworks themselves, rather than asking staff.</p>
@@ -158,16 +128,6 @@
 				
 
 				<li class="content-card">
-					<a class="project-title" href="/moma-ticketing/">
-						<img class="card-image" src="/img/moma-ticketing/thumbnail-Ticketing.png">
-
-						MoMA's Online Ticketing
-
-					</a>
-				</li>
-				
-
-				<li class="content-card">
 					<a class="project-title" href="/sweetpea/">
 						<img class="card-image" src="/img/bh-sp/thumbnail-SP.jpg">
 
@@ -176,10 +136,21 @@
 					</a>
 				</li>
 				
+
+				<li class="content-card">
+					<a class="project-title" href="/moma-ticketing/">
+						<img class="card-image" src="/img/moma-ticketing/thumbnail-Ticketing.png">
+
+						MoMA's Online Ticketing
+
+					</a>
+				</li>
+				
 			</ul>
 		</div>
 		
 	</main>
+	<script src="/js/carousel.js"></script>
 </body>
 
 </html>
