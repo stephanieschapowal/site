@@ -53,6 +53,7 @@ main.post p:has(> img) {
 .carousel {
 	position: relative;
 	overflow: hidden;
+	margin-bottom: var(--space-lg);
 }
 
 .carousel-track {
