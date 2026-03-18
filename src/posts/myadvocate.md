@@ -109,19 +109,23 @@ For the homepage, I tried to balance a sense of warmth and humanity—many peopl
 
 ### Sharing knowledge
 
-The MyAdvocate team has decades of experience in estate planning, and they don’t want all of their expertise to be gated. One of our main marketing and SEO strategies was to create a robust library of content to establish MyAdvocate as an expert in the field.
+The MyAdvocate team has decades of experience in estate planning, and they don’t want all of their expertise to be gated. One of our main marketing and SEO strategies was to create a robust library of editorial content to establish MyAdvocate as an expert in the field.
 
 Paul Rabelais, MyAdvocate’s resident expert, has hundreds of Youtube videos explaining the estate planning process. We wanted to leverage that content on the site, so we made sure to include a dedicated video experience, and collections of content for different topics.
 
 <div class="carousel">
   <div class="carousel-track">
     <div class="carousel-slide">
-      <img src="/img/bh-ma/ma-carousel-logo.png" alt="placeholder">
-      <p class="caption">The logo leaned into the metaphor of trees for leaving a legacy.</p>
+      <img src="/img/bh-ma/ma-carousel-learnhome.png" alt="placeholder">
+      <p class="caption">MyAdvocate’s goal with the learning editorial platform was to equip users with the knowledge they needed to confidently manage their estate planning.</p>
     </div>
     <div class="carousel-slide">
-      <img src="/img/bh-ma/ma-carousel-moodboard.png" alt="placeholder">
-      <p class="caption">Leah and I developed a color palette and brand direction that conveyed warmth and security.</p>
+      <img src="/img/bh-ma/ma-carousel-videohome.png" alt="placeholder">
+      <p class="caption">We leveraged the founder’s robust library of educational videos via a dedicated video experience, and content collections for different topics.</p>
+    </div>
+        <div class="carousel-slide">
+      <img src="/img/bh-ma/ma-carousel-learnscreens.png" alt="placeholder">
+      <p class="caption">One of our main marketing and SEO strategies was to create a robust library of content to establish MyAdvocate as an expert in the field.</p>
     </div>
   </div>
 
@@ -136,6 +140,7 @@ Paul Rabelais, MyAdvocate’s resident expert, has hundreds of Youtube videos ex
   <div class="carousel-dots">
     <button class="carousel-dot active" aria-label="Slide 1"></button>
     <button class="carousel-dot" aria-label="Slide 2"></button>
+        <button class="carousel-dot" aria-label="Slide 3"></button>
   </div>
 
   <button class="carousel-next" aria-label="Next slide">
@@ -157,6 +162,6 @@ The MyAdvocate team was thrilled with our brand and marketing site, and they wer
 
 #### Team
 
-Kris Kiger (Design director), Leah Schmidt (Senior product designer and illustrator), Austin Evarts (Product manager), Andrew Tejerina (Strategist),development by the MyAdvocate team
+Kris Kiger (Design director), Leah Schmidt (Senior product designer and illustrator), Austin Evarts (Product manager), Andrew Tejerina (Strategist), development by the MyAdvocate team
 
 
