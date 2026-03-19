@@ -236,6 +236,7 @@ a.button {
 	width: 100%;
 	padding-left: 0;
 	display: flex;
+	gap: var(--space-md);
 	flex-direction: column;
 	margin-top: var(--space-md);
 
@@ -266,6 +267,13 @@ a.project-title {
 		font-size: 1.25rem;
 		line-height: 1.6rem;
 	}
+}
+
+a.project-title:hover {
+	color: var(--accent-text);
+	text-decoration: underline;
+	text-underline-offset: 2px;
+	text-decoration-thickness: 1.5px;
 }
 
 p.card-caption {
