@@ -42,7 +42,11 @@ Their green brand color was already unique among the competition, but we softene
     </div>
     <div class="carousel-slide">
       <img src="/img/bh-sp/sp-carousel-moodboard.png" alt="placeholder">
-      <p class="caption">xxxxx</p>
+      <p class="caption">Our brand direction sought to bring warmth, play, and the idea of deeper engagement to the language of dating apps.</p>
+    </div>
+        <div class="carousel-slide">
+      <img src="/img/bh-sp/sp-carousel-style.png" alt="placeholder">
+      <p class="caption">A few sections from the Figma style guide I created to translate the brand into UI elements</p>
     </div>
   </div>
 
@@ -57,6 +61,7 @@ Their green brand color was already unique among the competition, but we softene
   <div class="carousel-dots">
     <button class="carousel-dot active" aria-label="Slide 1"></button>
     <button class="carousel-dot" aria-label="Slide 2"></button>
+    <button class="carousel-dot" aria-label="Slide 3"></button>
   </div>
 
   <button class="carousel-next" aria-label="Next slide">
@@ -69,7 +74,54 @@ Their green brand color was already unique among the competition, but we softene
 
 ### Profiles and messaging that makes matching fun, not just a checklist
 
-The core of the experience is swiping through profiles. To accomplish our goal of encouraging more conversations, we put more visual emphasis on the icebreaker, made photos larger and easier to view, introduced more opportunities start a chat, and added our new Wingmate feature.
+The core of the experience is swiping through profiles. To accomplish our goal of encouraging more conversations, we put more visual emphasis on the icebreaker, made photos larger and easier to view, and introduced more opportunities start a chat. We also gave users more opportunities to customize their profiles by connecting their Spotify and Goodreads accounts, and adding colors and stickers.
+
+<div class="carousel">
+  <div class="carousel-track">
+    <div class="carousel-slide">
+      <img src="/img/bh-sp/sp-carousel-profile.png" alt="placeholder">
+      <p class="caption">A lighter, non-italicized weight, as well as lightening the line weight of the pea graphic, made the logo feel more premium and thoughtful.</p>
+    </div>
+    <div class="carousel-slide">
+      <img src="/img/bh-sp/sp-carousel-profile2.png" alt="placeholder">
+      <p class="caption">Our brand direction sought to bring warmth, play, and the idea of deeper engagement to the language of dating apps.</p>
+    </div>
+        <div class="carousel-slide">
+      <img src="/img/bh-sp/sp-carousel-profile3.png" alt="placeholder">
+      <p class="caption">Our brand direction sought to bring warmth, play, and the idea of deeper engagement to the language of dating apps.</p>
+    </div>
+  </div>
+
+  <div class=carousel-controls>
+
+   <button class="carousel-prev" aria-label="Previous slide">
+    <svg width="16" height="27" viewBox="0 0 16 27" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path fill-rule="evenodd" clip-rule="evenodd" d="M15.0711 20.3431L8.70718 26.7071C8.31665 27.0976 7.68349 27.0976 7.29296 26.7071L0.929002 20.3431C0.538477 19.9526 0.538477 19.3195 0.929002 18.9289C1.31953 18.5384 1.95269 18.5384 2.34322 18.9289L7.00007 23.5858L7.00007 0L9.00007 8.74228e-08L9.00007 23.5858L13.6569 18.9289C14.0474 18.5384 14.6806 18.5384 15.0711 18.9289C15.4617 19.3195 15.4617 19.9526 15.0711 20.3431Z" fill="#656377"/>
+</svg>
+</button>
+
+  <div class="carousel-dots">
+    <button class="carousel-dot active" aria-label="Slide 1"></button>
+    <button class="carousel-dot" aria-label="Slide 2"></button>
+    <button class="carousel-dot" aria-label="Slide 3"></button>
+  </div>
+
+  <button class="carousel-next" aria-label="Next slide">
+        <svg width="16" height="27" viewBox="0 0 16 27" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path fill-rule="evenodd" clip-rule="evenodd" d="M15.0711 20.3431L8.70718 26.7071C8.31665 27.0976 7.68349 27.0976 7.29296 26.7071L0.929002 20.3431C0.538477 19.9526 0.538477 19.3195 0.929002 18.9289C1.31953 18.5384 1.95269 18.5384 2.34322 18.9289L7.00007 23.5858L7.00007 0L9.00007 8.74228e-08L9.00007 23.5858L13.6569 18.9289C14.0474 18.5384 14.6806 18.5384 15.0711 18.9289C15.4617 19.3195 15.4617 19.9526 15.0711 20.3431Z" fill="#656377"/>
+</button>
+  </div>
+</div>
+
+
+### Inspiring users to recruit their friends as a Wingmate
+
+The Wingmate feature was born out of the idea that your friends might tell your story better than you would. Users can send invitations to their friends to record videos about them based on a prompt. Users can then share that video on their own profile to better attract matches.
+
+Wingmates are encouraged to download Sweet Pea too (there’s a web version for those uninclined), so they can manage their videos. That way, a Wingmate request is also an invitation to join Sweet Pea, building an audience that extends beyond just single people.
+
+![Alt txt](/img/bh-sp/sp-wingmate.png)
+<p class="caption">The Sweet Pea app before our engagement had a dated brand, an onboarding flow that felt overwhelming, and some accessibility challenges.</p>
 
 
 #### Team

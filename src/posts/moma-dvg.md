@@ -29,7 +29,7 @@ I collaborated with another designer on research and initial wireframing for the
 <p class="caption">MoMA's digital PDF map in 2023</p>
 
 
-#### Project outcomes
+#### Approach
 
 ### Create an interactive map to serve our visitors’ distinct needs, while minimizing the demands on our staff
 
