@@ -21,8 +21,10 @@ related:
 
 Sweet Pea is a conversation-first dating app; their team aspires to add depth and meaningful connection to online dating. They came to Big Human to dream up exciting new features, refresh their brand, and make some critical UX updates, all with the goal of growing their user base to make more connections possible. 
 
-![Alt txt](/img/bh-sp/sp-before.png)
+![Three screenshots of the original Sweet Pea app: a login screen with the Sweet Pea logo, an Account Setup form requesting name, email, age, and gender, and a "Select a Prompt" screen with conversation starter options.](/img/bh-sp/sp-before.png)
 <p class="caption">The Sweet Pea app before our engagement had a dated brand, an onboarding flow that felt overwhelming, and some accessibility challenges.</p>
+
+#### My role
 
 My role in the project was to refresh the brand, apply the new brand to updated UX flows designed by Jessie, and work with the entire team to brainstorm and develop new features.
 
@@ -37,15 +39,15 @@ Their green brand color was already unique among the competition, but we softene
 <div class="carousel">
   <div class="carousel-track">
     <div class="carousel-slide">
-      <img src="/img/bh-sp/sp-carousel-logo.png" alt="placeholder">
+      <img src="/img/bh-sp/sp-carousel-logo.png" alt="Before-and-after comparison of the Sweet Pea logo on a dark green background. The original uses a bold italic wordmark; the updated version has a lighter, non-italic wordmark and a refined pea pod icon.">
       <p class="caption">A lighter, non-italicized weight, as well as lightening the line weight of the pea graphic, made the logo feel more premium and thoughtful.</p>
     </div>
     <div class="carousel-slide">
-      <img src="/img/bh-sp/sp-carousel-moodboard.png" alt="placeholder">
+      <img src="/img/bh-sp/sp-carousel-moodboard.png" alt="Brand moodboard showing line illustrations of plants and intertwined figures, a dark green card reading "Life's better in pairs" with a conversation prompt, torn teal paper texture elements, and a color palette of greens, purples, cream, and near-black.">
       <p class="caption">Our brand direction sought to bring warmth, play, and the idea of deeper engagement to the language of dating apps.</p>
     </div>
         <div class="carousel-slide">
-      <img src="/img/bh-sp/sp-carousel-style.png" alt="placeholder">
+      <img src="/img/bh-sp/sp-carousel-style.png" alt="Two pages from the Sweet Pea App Style Guide in Figma: UI elements including buttons, form fields, and dropdowns on the left; a color system with labeled swatches organized by greens, purples, and neutrals on the right.">
       <p class="caption">A few sections from the Figma style guide I created to translate the brand into UI elements</p>
     </div>
   </div>
@@ -79,16 +81,16 @@ The core of the experience is swiping through profiles. To accomplish our goal o
 <div class="carousel">
   <div class="carousel-track">
     <div class="carousel-slide">
-      <img src="/img/bh-sp/sp-carousel-profile.png" alt="placeholder">
-      <p class="caption">A lighter, non-italicized weight, as well as lightening the line weight of the pea graphic, made the logo feel more premium and thoughtful.</p>
+      <img src="/img/bh-sp/sp-carousel-profile.png" alt="Three screens of the redesigned Sweet Pea user profile, showing a photo, icebreaker prompt, fun facts, Q&A sections, and detailed attributes like lifestyle preferences and deal-breakers.">
+      <p class="caption">Profiles offered a lot of easy ways for users to put their personality on display, and for potential matches to strike up a conversation.</p>
     </div>
     <div class="carousel-slide">
-      <img src="/img/bh-sp/sp-carousel-profile2.png" alt="placeholder">
-      <p class="caption">Our brand direction sought to bring warmth, play, and the idea of deeper engagement to the language of dating apps.</p>
+      <img src="/img/bh-sp/sp-carousel-profile2.png" alt="Three screens showing Sweet Pea's inbox and messaging flows: a conversations list, a chat with a featured icebreaker prompt at the top, and a message thread where users share their prompt responses.">
+      <p class="caption">We centered the icebreaker at the top of the chat to offer a built-in conversation prompt.</p>
     </div>
         <div class="carousel-slide">
-      <img src="/img/bh-sp/sp-carousel-profile3.png" alt="placeholder">
-      <p class="caption">Our brand direction sought to bring warmth, play, and the idea of deeper engagement to the language of dating apps.</p>
+      <img src="/img/bh-sp/sp-carousel-profile3.png" alt="Three screens showing profile customization: a full profile view with Spotify integration, a Customize screen for editing photos and icebreaker text, and a Stickers panel for adding decorative elements.">
+      <p class="caption">Color, stickers, and integrations add another way for users to share their personality.</p>
     </div>
   </div>
 
@@ -120,7 +122,7 @@ The Wingmate feature was born out of the idea that your friends might tell your 
 
 Wingmates are encouraged to download Sweet Pea too (there’s a web version for those uninclined), so they can manage their videos. That way, a Wingmate request is also an invitation to join Sweet Pea, building an audience that extends beyond just single people.
 
-![Alt txt](/img/bh-sp/sp-wingmate.png)
+![Three screens of the Wingmate feature: a welcome screen inviting the user to record an endorsement video for a friend, a Wingmate Prompts screen with questions about the friend's personality, and a video recording screen showing the selected prompt.](/img/bh-sp/sp-wingmate.png)
 <p class="caption">The Sweet Pea app before our engagement had a dated brand, an onboarding flow that felt overwhelming, and some accessibility challenges.</p>
 
 

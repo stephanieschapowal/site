@@ -20,6 +20,11 @@ related:
 
 During the pandemic, MoMA adopted a timed ticketing system for admission in order to ease crowding. To stand up this solution quickly during uncertain times, the Digital Product team had turned to a white label solution. While the white label did a great job of handling time slots, its six screen flow took an average of 7 minutes to complete, was saddled with confusing out-of-the-box copy, and was unable to support membership or Design Store upsells. With timed ticketing no longer necessary, our team took the opportunity to build a ticketing solution in-house.
 
+![Five mobile screens showing the old MoMA white-label ticketing flow: a "Reserve timed tickets" landing page with admission options, a calendar to select a visit date, a ticket selection screen with time slots, a reservation form with billing fields, and an order review page.](/img/moma-ticketing/ticketing-before.png)
+<p class="caption">The old ticketing flow had five steps before the confirmation, and required visitors to sift through a lot of information to figure out which ticket types they were eligible for.</p>
+
+#### My role
+
 My role in the project was to gather requirements from stakeholders across the museum (including those in marketing, membership, visitor engagement, and IT), develop user personas for our visitors, create high fidelity designs, and perform usability testing and A/B tests.
 
 #### Approach
