@@ -7,8 +7,8 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta name="author" content="Stephanie Schapowal">
 	<link rel="stylesheet" href="/css/style.css" />
-	<!-- <link rel="stylesheet" href="/css/typography.css" />
-	<link rel="stylesheet" href="/css/post.css" /> -->
+	<link rel="stylesheet" href="/css/post.css" />
+	<!-- <link rel="stylesheet" href="/css/typography.css" /> -->
 	<title></title>
 
 	<!-- favicon -->
@@ -41,101 +41,126 @@
 <body class="p-work">
 
 	<header>
-		<a href="/">
-			<button>← All projects</button>
-			<!-- <svg class="circle" height="40" width="40" xmlns="http://www.w3.org/2000/svg">
-				<circle transform="translate(50%,2%)" r="20" cx="50%" cy="20" fill="#8F920B" />
-			</svg> -->
-		</a>
-
-		<a href="/">
-			<h1>Stephanie Schapowal</h1>
-		</a>
+		<a href="/" class="header-pill">Stephanie Schapowal</a>
 	</header>
 
-	<h2>Online ticketing</h2>
+	<div class="project-header">
+		<h1>MoMA's Online Ticketing</h1>
 
-	<p class="project-description">
-		Streamlining the ticket-buying process for both visitors and staff
-	</p>
+		<p class="project-description">
+			Streamlining the ticket-buying process and cutting time to purchase in half
+		</p>
+
+		
+		<div class="post-header-image">
+			<img src="/img/moma-ticketing/ticketing-header.png" alt="MoMA's Online Ticketing">
+		</div>
+		
+	</div>
 
 	<main class="post">
-		<p><img src="/img/moma-ticketing/ticketing-header.png" alt="Digital MoMA tickets"></p>
-<h4>Background</h4>
-<h3>MoMA’s online ticketing system was optimized for timed entry slots, not a seamless purchase experience</h3>
-<p>During the pandemic, MoMA adopted a timed ticketing system for admission to prevent lines and ease crowding. To stand up this solution quickly during uncertain times, the Digital Product team had turned to ACME’s (our ticket management vendor) white label solution. While the white label did a great job of handling time slots, its six screen flow took an average of 7 minutes to complete, was saddled with confusing out-of-the-box copy, and was unable to support membership or Design Store upsells. With timed ticketing no longer necessary, our team took the opportunity to use ACME’s API to build an in-house ticketing solution.</p>
-<p><img src="/img/moma-ticketing/ticketing-before.png" alt="Overview of MoMA's old ticketing flow"></p>
-<p class="caption">The old ticketing flow had six steps, and required visitors to sift through a lot of information to figure out which ticket types they were eligible for.</p>
+		<h4>Background</h4>
+<h3>MoMA's online ticketing system was optimized for timed entry slots, not a seamless purchase experience</h3>
+<p>During the pandemic, MoMA adopted a timed ticketing system for admission in order to ease crowding. To stand up this solution quickly during uncertain times, the Digital Product team had turned to a white label solution. While the white label did a great job of handling time slots, its six screen flow took an average of 7 minutes to complete, was saddled with confusing out-of-the-box copy, and was unable to support membership or Design Store upsells. With timed ticketing no longer necessary, our team took the opportunity to build a ticketing solution in-house.</p>
+<p><img src="/img/moma-ticketing/ticketing-before.png" alt="Five mobile screens showing the old MoMA white-label ticketing flow: a &quot;Reserve timed tickets&quot; landing page with admission options, a calendar to select a visit date, a ticket selection screen with time slots, a reservation form with billing fields, and an order review page."></p>
+<p class="caption">The old ticketing flow had five steps before the confirmation, and required visitors to sift through a lot of information to figure out which ticket types they were eligible for.</p>
 <h4>My role</h4>
-<p>As part of this process, I gathered requirements from stakeholders across the museum (including those in marketing, membership, visitor engagement, and IT), developed user personas for our visitors, created high fidelity designs, and performed usability testing and A/B tests.</p>
-<h4>Outcomes</h4>
-<p>By focusing on an intuitive and accessible user experience, we saw revenue from online ticketing increase 4.5% in the first six months after launch. For our users, the average time to checkout was reduced by over 50%. The new design also provided a foundation for future experimentation and testing by our growth squad, leading to a successful membership upsell offer system, and the addition of digital wallet payments.</p>
-<p>We were able to make critical improvements for staff, like growing marketing’s email subscription list, and easing requests of our lobby staff by optimizing our confirmation page and digital tickets to prepare visitors for their day at MoMA.</p>
+<p>My role in the project was to gather requirements from stakeholders across the museum (including those in marketing, membership, visitor engagement, and IT), develop user personas for our visitors, create high fidelity designs, and perform usability testing and A/B tests.</p>
 <h4>Approach</h4>
-<h3>Trimming the checkout flow from six screens to three</h3>
-<p>One of our highest priorities was to radically shorten the amount of steps it took to buy a ticket. We wanted to optimize the experience for visitors buying tickets on their phones—often on the go during their trip to NYC. We decided on a three step checkout flow: select your tickets, enter your information, and a confirmation screen.</p>
-<p><img src="/img/moma-ticketing/ticketing-steps.png" alt="Three step checkout flow"></p>
-<p class="caption">We reduced the new flow to encompass only three screens: selecting your date and tickets, entering your information, and a confirmation screen.</p>
-<h3>Directing users to the right tickets for them</h3>
-<p>As the first step, our old flow asked users to identify themselves as a member, non-member, student, or affiliate. Users found some of the options unclear (“not a member” felt a bit negative), and the distinct pages led users to believe they were missing out on options available to them. I laid out the ticket types on one page, with general admission tickets, the most popular (and profitable) action at the top. Member guest tickets became a list item with a direction to log in, rather than the first decision all users make when buying a ticket. Free ticket types were moved to the bottom—these users are often very high-intent in finding the options they’re eligible for.</p>
-<p><img src="/img/moma-ticketing/ticketing-fork.png" alt="Choosing the right type of ticket"></p>
-<p class="caption">The old fork (left) had a confusing hierarchy of ticket options. For the new flow, I chose to lay out the options in a linear, immediately actionable way.</p>
-<p>Visitors with disabilities were eligible to receive a free ticket for a care partner, but they could only get these in person. We added the ability to reserve care partner tickets online, removing a hassle for these visitors during their lobby experience.</p>
-<p><img src="/img/moma-ticketing/ticketing-vwd.png" alt="Enabling care partner tickets online"></p>
-<h3>Choosing intuitive language</h3>
-<p>The language we used throughout the ticketing flow felt unintuitive—influenced by timed ticket slots and all its policies, a third party checkout solution, and the legacy of the ticketing flow as a place to communicate visitor policy. All of this led to a lack of visitor confidence in checking out—users often gave up online and planned to buy a ticket in person.</p>
-<p>We tested the new language in the whole flow, including primary CTAs and progress bars, to ensure it felt intuitive to our users.</p>
-<p><img src="/img/moma-ticketing/ticketing-language.png" alt="Progress bar and order summary"></p>
-<p>Our site’s main CTA of “Reserve timed tickets” was a bit of a mouthful. I took the opportunity to A/B test language variations for this CTA, and a simple “Tickets” won out, with 88% more ticket purchases than the original.</p>
-<p><img src="/img/moma-ticketing/ticketing-ab.png" alt="A/B test of different CTA options"></p>
-<h3>Helping visitors get excited and prepared for their visit</h3>
-<p>We added some of the policy that we removed from earlier in the flow to the confirmation page, where we had more space to illustrate and explain what visitors could expect. Most visitors often only research logistics (like hours and bag policy) before their visit, and we wanted to easily provide this information, but also point them to pages on the website that would prepare them for what to see.</p>
-<p><img src="/img/moma-ticketing/ticketing-confirmation.png" alt="Confirmation page"></p>
+<h3>By trimming down the checkout flow, we were able to sell tickets faster, and get visitors excited to visit MoMA</h3>
+<p>Our goal was to increase the percentage of tickets bought online vs. in the lobby—this was guaranteed revenue for the museum, and eased demands on our lobby staff. While our greatest tool was an online-only discount, we also shortened the flow from six steps to three to serve our primarily mobile ticket buyers, and audited all language to ensure maximum clarity. Surfacing our paid tickets types (highest purchase volume) to the top of the simplified ticketing list allowed most visitors to be on their way quickly.</p>
+<p>We also prioritized preparing visitors for their day at MoMA by adding helpful resources and policies to the confirmation page and email.</p>
+<div class="carousel">
+  <div class="carousel-track">
+    <div class="carousel-slide">
+      <img src="/img/moma-ticketing/ticketing-carousel-threestep.png" alt="Three-screen checkout flow: selecting date and tickets, entering information, and a confirmation screen">
+      <p class="caption">I reduced the new flow to encompass only three screens: selecting your date and tickets, entering your information, and a confirmation screen.</p>
+    </div>
+    <div class="carousel-slide">
+      <img src="/img/moma-ticketing/ticketing-carousel-box.png" alt="A persistent order summary box and progress bar is displayed alongside the checkout form.">
+      <p class="caption">A persistent order summary box and progress bar allowed us to trim the “Review your order” page.</p>
+    </div>
+    <div class="carousel-slide">
+      <img src="/img/moma-ticketing/ticketing-carousel-tickettypes.png" alt="The ticket selection screen with all paid ticket types in a scannable list, prioritized above member tickets">
+      <p class="caption">All paid ticket types were laid out in a scannable list on the first page of the flow, rather than prioritizing members (a lower proportion of ticket buyers).</p>
+    </div>
+    <div class="carousel-slide">
+      <img src="/img/moma-ticketing/ticketing-carousel-nav.png" alt="Before and after of MoMA.org navigation bar showing the simplified 'Tickets' CTA that replaced 'Reserve timed tickets'">
+      <p class="caption">Simplifying the main ticketing CTA in the navigation from “Reserve timed tickets” to just “Tickets”, increased traffic to the ticketing flow by 15%.</p>
+    </div>
+    <div class="carousel-slide">
+      <img src="/img/moma-ticketing/ticketing-carousel-confirmation.png" alt="The order confirmation page shows visitor policies and helpful resources">
+      <p class="caption">The confirmation page is one of our only opportunities to share visitor policies and resources. A timely reminder as most visitors buy tickets same day.</p>
+    </div>
+    <div class="carousel-slide">
+      <img src="/img/moma-ticketing/ticketing-carousel-tickets.png" alt="Bold, color-coded digital tickets displayed on an email for staff to identify ticket types at entry">
+      <p class="caption">Bold, color coded tickets helped staff quickly identify who needed an ID check while scanning tickets for entry.</p>
+    </div>
+  </div>
+  <div class=carousel-controls>
+   <button class="carousel-prev" aria-label="Previous slide">
+    <svg width="16" height="27" viewBox="0 0 16 27" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path fill-rule="evenodd" clip-rule="evenodd" d="M15.0711 20.3431L8.70718 26.7071C8.31665 27.0976 7.68349 27.0976 7.29296 26.7071L0.929002 20.3431C0.538477 19.9526 0.538477 19.3195 0.929002 18.9289C1.31953 18.5384 1.95269 18.5384 2.34322 18.9289L7.00007 23.5858L7.00007 0L9.00007 8.74228e-08L9.00007 23.5858L13.6569 18.9289C14.0474 18.5384 14.6806 18.5384 15.0711 18.9289C15.4617 19.3195 15.4617 19.9526 15.0711 20.3431Z" fill="#656377"/>
+</svg>
+</button>
+  <div class="carousel-dots">
+    <button class="carousel-dot active" aria-label="Slide 1"></button>
+    <button class="carousel-dot" aria-label="Slide 2"></button>
+    <button class="carousel-dot" aria-label="Slide 3"></button>
+    <button class="carousel-dot" aria-label="Slide 4"></button>
+    <button class="carousel-dot" aria-label="Slide 5"></button>
+    <button class="carousel-dot" aria-label="Slide 6"></button>
+  </div>
+  <button class="carousel-next" aria-label="Next slide">
+        <svg width="16" height="27" viewBox="0 0 16 27" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path fill-rule="evenodd" clip-rule="evenodd" d="M15.0711 20.3431L8.70718 26.7071C8.31665 27.0976 7.68349 27.0976 7.29296 26.7071L0.929002 20.3431C0.538477 19.9526 0.538477 19.3195 0.929002 18.9289C1.31953 18.5384 1.95269 18.5384 2.34322 18.9289L7.00007 23.5858L7.00007 0L9.00007 8.74228e-08L9.00007 23.5858L13.6569 18.9289C14.0474 18.5384 14.6806 18.5384 15.0711 18.9289C15.4617 19.3195 15.4617 19.9526 15.0711 20.3431Z" fill="#656377"/>
+</button>
+  </div>
+</div>
+<h4>Outcomes</h4>
+<h3>By focusing on an intuitive and accessible user experience, we saw revenue from online ticketing increase 4.5% in the first six months after launch.</h3>
+<p>For our users, the average time to checkout was reduced by over 50%. The new design also provided a foundation for future experimentation and testing by our growth squad, leading to a successful membership upsell offer system, and the addition of digital wallet payments.</p>
+<p>We were able to make critical improvements for staff, like growing marketing’s email subscription list, and easing requests of our lobby staff by including visitor policies on the confirmation page.</p>
 <h4>Team</h4>
-<ul>
-<li>Michelle Pae (Director of Digital Product)</li>
-<li>Madhav Tankha (Assistant Director of UX)</li>
-<li>John Cline (Director of Engineering)</li>
-<li>Rik Vanmechelen (Director of IT Apps)</li>
-<li>Debora Domass (Product manager)</li>
-<li>Deepa Ahmed (Project manager)</li>
-<li>Kengo Ikeda-Iyeki (Frontend engineer)</li>
-<li>Anthony Hersey (Fullstack engineer)</li>
-<li>John Halderman (Fullstack engineer)</li>
-<li>James Duffy (Fullstack engineer)</li>
-</ul>
+<p>Michelle Pae (director of digital product), Rik Van Mechelen (director of IT apps), John Cline (director of engineering), Madhav Tankha (assistant director of UX), Debora Domass (product manager), Kengo Ikeda-Iyeki (front end developer), Anthony Hersey (back end developer), John Halderman (back end developer), James Duffy (back end developer), Tyler Cole (product manager), Deepa Ahmed (project manager)</p>
 
 
-
-		<svg class="square" width=100% height="28" xmlns="http//www.w3.org/2000/svg">
-			<rect width="28" height="28" fill="#8F920B" />
-		</svg>
 
 		
 		<div class="related-posts">
-			<h2>More projects</h2>
+			<h2 class="more-projects">More projects</h2>
 			<ul class="postlist">
+
 				
+
 				
+
 				<li class="content-card">
 					<a class="project-title" href="/moma-dvg/">
 						<img class="card-image" src="/img/moma-dvg/thumbnail-DVG.jpg">
-						Digital Visitor Guide
+
+						MoMA's Digital Visitor Guide and Map
+
 					</a>
+					<p class="card-caption">Harnessing MoMA’s collection data to improve wayfinding for visitors</p>
 				</li>
 				
+
 				<li class="content-card">
-					<a class="project-title" href="/sweetpea/">
-						<img class="card-image" src="/img/bh-sp/thumbnail-SP.jpg">
-						Sweet Pea brand & dating app
+					<a class="project-title" href="/myadvocate/">
+						<img class="card-image" src="/img/bh-ma/thumbnail-MA.png">
+
+						MyAdvocate
+
 					</a>
+					<p class="card-caption">A marketing site that brings warmth and clarity to estate planning</p>
 				</li>
 				
 			</ul>
 		</div>
 		
 	</main>
-
+	<script src="/js/carousel.js"></script>
 </body>
 
 </html>

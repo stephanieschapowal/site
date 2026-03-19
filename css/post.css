@@ -1,70 +1,143 @@
+.project-header {
+	width: 100%;
+	max-width: 1000px;
+	margin: var(--space-lg) auto;
+}
 
+.post-header-image {
+	width: calc(100% - 2 * var(--space-md));
+	max-width: 1000px;
+	margin: var(--space-lg) auto;
+}
 
-main{
+/* Main post content column */
+main.post {
 	position: relative;
 	width: 85%;
-	max-width: 1000px;
+	max-width: 800px;
 	margin: 0 auto;
-	padding-top: 3.2em;
+	padding: 0 0 var(--space-xxl);
 }
 
 @media (min-width: 768px) {
-	main{
+	main.post {
 		width: 55%;
 	}
 }
 
-.body-content{
+/* Images inside post content */
+main.post img {
 	width: 100%;
-	margin: 0 auto;
-	padding: 2.6em 0 3.2em 0;
+	margin-top: var(--space-md);
 }
 
-@media (min-width: 1440px) {
-	.body-content{
-		width: 65%;
-		max-width: 550px;
+main.post p:has(> img) {
+	margin: 0 auto;
+	width: 100%;
+	max-width: none;
+}
+
+h3.second {
+	padding-top: var(--space-lg);
+}
+
+/* ---- Carousel ---- */
+
+.carousel {
+	position: relative;
+	overflow: hidden;
+	margin-bottom: var(--space-md);
+}
+
+.carousel-track {
+	display: flex;
+	transition: transform 0.4s ease;
+}
+
+.carousel-slide {
+	width: 100%;
+	flex-shrink: 0;
+}
+
+.carousel-slide img {
+	width: 100%;
+	display: block;
+}
+
+.carousel-controls {
+	display: flex;
+	justify-content: center;
+	gap: var(--space-md);
+	align-items: center;
+}
+
+.carousel-prev,
+.carousel-next {
+
+	@media (min-width: 768px) {
+		position: relative;
+		/* top: 50%; */
+		/* transform: translateY(-50%); */
+		color: var(--text-primary);
+		background-color: var(--background);
+		border: none;
+		width: 40px;
+		height: 40px;
+		font-size: 18px;
+		line-height: 1;
+		padding: 0;
+		cursor: pointer;
+		z-index: 2;
+		left: auto;
 	}
 }
 
-/*---------------------------HEADER---------------------------*/
-
-header{
-	padding-top: 5.6em;
+.carousel-prev {
+	transform: rotate(90deg);
 }
 
-svg.backarrow{
-	position: fixed;
-	top: 1.8em;
-	left: calc(50% - 20px);
-	z-index:10;
+.carousel-next {
+	transform: rotate(-90deg);
 }
 
-svg.square{
-	position: relative;
-	left: calc(50% - 14px);
-	margin-bottom: 24px;
+/* Dot indicators */
+.carousel-dots {
+	display: flex;
+	justify-content: center;
+	gap: 8px;
+	/* padding: var(--space-sm) 0 0; */
 }
 
-img{
-	border-radius: 12px;
-	border-width: 1px;
+.carousel-dot {
+	width: 12px;
+	height: 12px;
+	border-radius: 50%;
+	border: 2px solid var(--text-secondary);
+	background: var(--background);
+	cursor: pointer;
+	padding: 0;
+	position: static;
+	font-size: 0;
+	box-shadow: none;
 }
 
-
-
-/*---------------------------CARDS---------------------------*/
-
-
-.post-grid{
-	width: 85%;
-	max-width: 1000px;
-	padding-left: 0;
-	/* padding-bottom: 4.8em; */
-	display:flex;
-	flex-direction: column;
-	justify-content: space-between;
+.carousel-dot.active {
+	background: var(--text-secondary);
 }
 
+@media (max-width: 767px) {
 
+	.carousel-prev,
+	.carousel-next {
+		display: none;
+	}
 
+	.carousel-dots {
+		gap: 14px;
+	}
+
+	.carousel-dot {
+		width: 12px;
+		height: 12px;
+	}
+}

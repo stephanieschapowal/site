@@ -7,8 +7,8 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta name="author" content="Stephanie Schapowal">
 	<link rel="stylesheet" href="/css/style.css" />
-	<!-- <link rel="stylesheet" href="/css/typography.css" />
-	<link rel="stylesheet" href="/css/post.css" /> -->
+	<link rel="stylesheet" href="/css/post.css" />
+	<!-- <link rel="stylesheet" href="/css/typography.css" /> -->
 	<title></title>
 
 	<!-- favicon -->
@@ -41,23 +41,18 @@
 <body class="p-work">
 
 	<header>
-		<a href="/">
-			<button>← All projects</button>
-			<!-- <svg class="circle" height="40" width="40" xmlns="http://www.w3.org/2000/svg">
-				<circle transform="translate(50%,2%)" r="20" cx="50%" cy="20" fill="#8F920B" />
-			</svg> -->
-		</a>
-
-		<a href="/">
-			<h1>Stephanie Schapowal</h1>
-		</a>
+		<a href="/" class="header-pill">Stephanie Schapowal</a>
 	</header>
 
-	<h2>moma.org Navigation</h2>
+	<div class="project-header">
+		<h1>moma.org Navigation</h1>
 
-	<p class="project-description">
-		A global navigation that balances accessibility and accuracy
-	</p>
+		<p class="project-description">
+			A global navigation that balances accessibility and accuracy
+		</p>
+
+		
+	</div>
 
 	<main class="post">
 		<p><img src="/img/moma-nav/thumbnail-Nav.jpg" alt="MoMA's mobile navigation"></p>
@@ -105,22 +100,11 @@
 
 
 
-		<svg class="square" width=100% height="28" xmlns="http//www.w3.org/2000/svg">
-			<rect width="28" height="28" fill="#8F920B" />
-		</svg>
-
 		
 		<div class="related-posts">
-			<h2>More projects</h2>
+			<h2 class="more-projects">More projects</h2>
 			<ul class="postlist">
 				
-				
-				<li class="content-card">
-					<a class="project-title" href="/moma-dvg/">
-						<img class="card-image" src="/img/moma-dvg/thumbnail-DVG.jpg">
-						Digital Visitor Guide
-					</a>
-				</li>
 				
 				<li class="content-card">
 					<a class="project-title" href="/myadvocate/">
@@ -129,11 +113,17 @@
 					</a>
 				</li>
 				
+				<li class="content-card">
+					<a class="project-title" href="/moma-dvg/">
+						<img class="card-image" src="/img/moma-dvg/thumbnail-DVG.jpg">
+						MoMA's Digital Visitor Guide and Map
+					</a>
+				</li>
+				
 			</ul>
 		</div>
 		
 	</main>
-
 </body>
 
 </html>
