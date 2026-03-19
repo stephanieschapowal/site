@@ -123,7 +123,7 @@ The Wingmate feature was born out of the idea that your friends might tell your 
 Wingmates are encouraged to download Sweet Pea too (there’s a web version for those uninclined), so they can manage their videos. That way, a Wingmate request is also an invitation to join Sweet Pea, building an audience that extends beyond just single people.
 
 ![Three screens of the Wingmate feature: a welcome screen inviting the user to record an endorsement video for a friend, a Wingmate Prompts screen with questions about the friend's personality, and a video recording screen showing the selected prompt.](/img/bh-sp/sp-wingmate.png)
-<p class="caption">The Sweet Pea app before our engagement had a dated brand, an onboarding flow that felt overwhelming, and some accessibility challenges.</p>
+<p class="caption">Not only was Wingmate a fun way to connect, it acted as a referral mechanism for users to recruit their friends.</p>
 
 
 #### Team

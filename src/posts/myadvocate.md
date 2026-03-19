@@ -25,8 +25,7 @@ MyAdvocate’s goal is to make the process of creating a will or trust accessibl
 
 I collaborated with another designer to develop the brand, and executed all web design—from information architecture, to visual design, to creating a style guide that MyAdvocate’s team could apply to the product itself.
 
-
-
+#### Approach
 
 ### Injecting warmth and trust into an emotionally-fraught process
 
@@ -66,7 +65,7 @@ MyAdvocate had a few elements of their existing brand they wanted to preserve—
 
 
 
-### Leading with clarity, expertise, and value
+<h3 class="second">Leading with clarity, expertise, and value</h3>
 
 For the homepage, I tried to balance a sense of warmth and humanity—many people look for estate planning help during a time of stress or crisis—with clarity surrounding the different plans and ease of use. The main CTA directs users to the assessment, a series of questions that creates a personalized plan for each user.
 
@@ -109,7 +108,7 @@ For the homepage, I tried to balance a sense of warmth and humanity—many peopl
 
 
 
-### Sharing knowledge
+<h3 class="second">Creating a robust library of knowledge</h3>
 
 The MyAdvocate team has decades of experience in estate planning, and they don’t want all of their expertise to be gated. One of our main marketing and SEO strategies was to create a robust library of editorial content to establish MyAdvocate as an expert in the field.
 

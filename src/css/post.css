@@ -1,11 +1,11 @@
 .project-header {
-	width: 100;
+	width: 100%;
 	max-width: 1000px;
 	margin: var(--space-lg) auto;
 }
 
 .post-header-image {
-	width: 100%;
+	width: calc(100% - 2 * var(--space-md));
 	max-width: 1000px;
 	margin: var(--space-lg) auto;
 }
@@ -33,19 +33,12 @@ main.post img {
 
 main.post p:has(> img) {
 	margin: 0 auto;
-}
-
-/* Three-up image gallery */
-.gallery {
-	display: grid;
-	grid-template-columns: repeat(3, 1fr);
-	gap: var(--space-sm);
-	margin: var(--space-lg) 0;
-}
-
-.gallery img {
 	width: 100%;
-	margin-bottom: 0;
+	max-width: none;
+}
+
+h3.second {
+	padding-top: var(--space-lg);
 }
 
 /* ---- Carousel ---- */
@@ -53,7 +46,7 @@ main.post p:has(> img) {
 .carousel {
 	position: relative;
 	overflow: hidden;
-	margin-bottom: var(--space-lg);
+	margin-bottom: var(--space-md);
 }
 
 .carousel-track {
