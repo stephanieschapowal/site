@@ -30,8 +30,8 @@
 	--space-xxl: 6rem;
 
 	--typography-xl: 2.5rem;
-	--typography-lg: 2rem;
-	--typography-md: 1.45rem;
+	--typography-lg: 1.9rem;
+	--typography-md: 1.55rem;
 	--typography-sm: 1.25rem;
 	--typography-xs: 1.125rem;
 	--typography-xxs: 1rem;
@@ -39,7 +39,7 @@
 
 	--line-height-loose: 1.75;
 	--line-height-body: 1.6;
-	--line-height-tight: 1.385;
+	--line-height-tight: 1.3;
 
 
 
@@ -103,7 +103,7 @@ header {
 	padding: 0.5rem 1rem;
 	border-radius: 1.5rem;
 	box-shadow: var(--shadow);
-	font-size: var(--typography-md);
+	font-size: var(--typography-sm);
 	line-height: 1.6rem;
 	color: var(--text-primary);
 	text-decoration: none;
@@ -249,12 +249,12 @@ a.button {
 
 a.project-title {
 	color: var(--text-primary);
-	font-size: var(--typography-sm);
+	font-size: var(--typography-xs);
 	line-height: var(--line-height-body);
 	text-decoration: none;
 
 	@media (min-width: 768px) {
-		font-size: var(--typography-md);
+		font-size: var(--typography-sm);
 	}
 }
 
