@@ -142,19 +142,19 @@ h3.second {
 		color: var(--text-primary);
 
 		@media (min-width: 768px) {
-			height: 288px;
+			height: 312px;
 		}
 
 		@media (min-width: 1024px) {
-			height: 376px;
+			height: 400px;
 		}
 
 		@media (min-width: 1280px) {
-			height: 465px;
+			height: 490px;
 		}
 
 		@media (min-width: 1440px) {
-			height: 520px;
+			height: 544px;
 		}
 
 	}
