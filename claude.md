@@ -170,6 +170,7 @@ Carousels are written as raw HTML directly in markdown files. The structure is:
 
 ```html
 <div class="carousel">
+  <div class="carousel-viewport">
   <div class="carousel-track">
     <div class="carousel-slide">
       <img src="/img/..." alt="...">
@@ -177,22 +178,21 @@ Carousels are written as raw HTML directly in markdown files. The structure is:
     </div>
     <!-- repeat slides -->
   </div>
-  <div class=carousel-controls>
-    <button class="carousel-prev" aria-label="Previous slide">
-      <!-- SVG arrow icon -->
-    </button>
-    <div class="carousel-dots">
-      <button class="carousel-dot active" aria-label="Slide 1"></button>
-      <!-- one dot per slide -->
-    </div>
-    <button class="carousel-next" aria-label="Next slide">
-      <!-- SVG arrow icon -->
-    </button>
   </div>
+  <button class="carousel-prev" aria-label="Previous slide">
+    <!-- SVG arrow icon -->
+  </button>
+  <div class="carousel-dots">
+    <button class="carousel-dot active" aria-label="Slide 1"></button>
+    <!-- one dot per slide -->
+  </div>
+  <button class="carousel-next" aria-label="Next slide">
+    <!-- SVG arrow icon -->
+  </button>
 </div>
 ```
 
-On mobile: prev/next arrows are hidden, dots only. On desktop: arrows are visible.
+On mobile: prev/next arrows are hidden, dots only. On desktop: arrows appear to the left and right of the image with 20px spacing, vertically centered on the image area — achieved via CSS Grid on `.carousel` with `margin-left/right: -60px` to keep the image the same width as the content column.
 The number of `.carousel-dot` buttons must match the number of `.carousel-slide` elements.
 
 ---

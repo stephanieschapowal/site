@@ -41,6 +41,7 @@ moma.org runs on our internal CMS and the collection database TMS, meaning inter
 A common pattern is for users to search for artworks and artists using our global site search. Previously, artworks that were on view weren't given priority placement. On artist pages, we pushed artworks that were on view to the top of the list, and on artworks pages, we linked out to the gallery where the artwork was located. This made it much easier for visitors to use our site to find specific artworks and artist they wanted to see.
 
 <div class="carousel">
+  <div class="carousel-viewport">
   <div class="carousel-track">
     <div class="carousel-slide">
       <img src="/img/moma-dvg/dvg-carousel-beforeafter.png" alt="Side-by-side comparison of the original MoMA PDF map and the new interactive map on mobile. The PDF version shows all floors stacked vertically in a dense, hard-to-read layout. The new version shows a zoomable floor plan with floor selector tabs and an "On this floor" section listing exhibitions below.">
@@ -59,27 +60,22 @@ A common pattern is for users to search for artworks and artists using our globa
       <p class="caption">Throughout the site and search listings, we prioritized artworks that are on view, and linked locations of galleries, exhibitions, and artworks to the map.</p>
     </div>
   </div>
-
-  <div class=carousel-controls>
-
-   <button class="carousel-prev" aria-label="Previous slide">
+  </div>
+  <button class="carousel-prev" aria-label="Previous slide">
     <svg width="16" height="27" viewBox="0 0 16 27" fill="none" xmlns="http://www.w3.org/2000/svg">
 <path fill-rule="evenodd" clip-rule="evenodd" d="M15.0711 20.3431L8.70718 26.7071C8.31665 27.0976 7.68349 27.0976 7.29296 26.7071L0.929002 20.3431C0.538477 19.9526 0.538477 19.3195 0.929002 18.9289C1.31953 18.5384 1.95269 18.5384 2.34322 18.9289L7.00007 23.5858L7.00007 0L9.00007 8.74228e-08L9.00007 23.5858L13.6569 18.9289C14.0474 18.5384 14.6806 18.5384 15.0711 18.9289C15.4617 19.3195 15.4617 19.9526 15.0711 20.3431Z" fill="#656377"/>
 </svg>
 </button>
-
   <div class="carousel-dots">
     <button class="carousel-dot active" aria-label="Slide 1"></button>
     <button class="carousel-dot" aria-label="Slide 2"></button>
     <button class="carousel-dot" aria-label="Slide 3"></button>
     <button class="carousel-dot" aria-label="Slide 4"></button>
   </div>
-
   <button class="carousel-next" aria-label="Next slide">
         <svg width="16" height="27" viewBox="0 0 16 27" fill="none" xmlns="http://www.w3.org/2000/svg">
 <path fill-rule="evenodd" clip-rule="evenodd" d="M15.0711 20.3431L8.70718 26.7071C8.31665 27.0976 7.68349 27.0976 7.29296 26.7071L0.929002 20.3431C0.538477 19.9526 0.538477 19.3195 0.929002 18.9289C1.31953 18.5384 1.95269 18.5384 2.34322 18.9289L7.00007 23.5858L7.00007 0L9.00007 8.74228e-08L9.00007 23.5858L13.6569 18.9289C14.0474 18.5384 14.6806 18.5384 15.0711 18.9289C15.4617 19.3195 15.4617 19.9526 15.0711 20.3431Z" fill="#656377"/>
 </button>
-  </div>
 </div>
 
 

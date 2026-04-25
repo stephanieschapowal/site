@@ -32,6 +32,7 @@ I collaborated with another designer to develop the brand, and executed all web 
 MyAdvocate had a few elements of their existing brand they wanted to preserve—such as organic shapes and the color green—but for the most part we started fresh. We created moodboards to compose a palette that was warm and refined, and leaned into a few points of inspiration to create the logo: historic legal typefaces, the legacy of trees, and the language of documents. Leah created all of the spot illustrations for the site.
 
 <div class="carousel">
+  <div class="carousel-viewport">
   <div class="carousel-track">
     <div class="carousel-slide">
       <img src="/img/bh-ma/ma-carousel-logo.png" alt="The MyAdvocate logo on a dark green background, featuring a stylized three-leaf plant icon in gold and cream tones beside a serif wordmark.">
@@ -42,25 +43,20 @@ MyAdvocate had a few elements of their existing brand they wanted to preserve—
       <p class="caption">Leah and I developed a color palette and brand direction that conveyed warmth and security.</p>
     </div>
   </div>
-
-  <div class=carousel-controls>
-
-   <button class="carousel-prev" aria-label="Previous slide">
+  </div>
+  <button class="carousel-prev" aria-label="Previous slide">
     <svg width="16" height="27" viewBox="0 0 16 27" fill="none" xmlns="http://www.w3.org/2000/svg">
 <path fill-rule="evenodd" clip-rule="evenodd" d="M15.0711 20.3431L8.70718 26.7071C8.31665 27.0976 7.68349 27.0976 7.29296 26.7071L0.929002 20.3431C0.538477 19.9526 0.538477 19.3195 0.929002 18.9289C1.31953 18.5384 1.95269 18.5384 2.34322 18.9289L7.00007 23.5858L7.00007 0L9.00007 8.74228e-08L9.00007 23.5858L13.6569 18.9289C14.0474 18.5384 14.6806 18.5384 15.0711 18.9289C15.4617 19.3195 15.4617 19.9526 15.0711 20.3431Z" fill="#656377"/>
 </svg>
 </button>
-
   <div class="carousel-dots">
     <button class="carousel-dot active" aria-label="Slide 1"></button>
     <button class="carousel-dot" aria-label="Slide 2"></button>
   </div>
-
   <button class="carousel-next" aria-label="Next slide">
         <svg width="16" height="27" viewBox="0 0 16 27" fill="none" xmlns="http://www.w3.org/2000/svg">
 <path fill-rule="evenodd" clip-rule="evenodd" d="M15.0711 20.3431L8.70718 26.7071C8.31665 27.0976 7.68349 27.0976 7.29296 26.7071L0.929002 20.3431C0.538477 19.9526 0.538477 19.3195 0.929002 18.9289C1.31953 18.5384 1.95269 18.5384 2.34322 18.9289L7.00007 23.5858L7.00007 0L9.00007 8.74228e-08L9.00007 23.5858L13.6569 18.9289C14.0474 18.5384 14.6806 18.5384 15.0711 18.9289C15.4617 19.3195 15.4617 19.9526 15.0711 20.3431Z" fill="#656377"/>
 </button>
-  </div>
 </div>
 
 
@@ -70,6 +66,7 @@ MyAdvocate had a few elements of their existing brand they wanted to preserve—
 For the homepage, I tried to balance a sense of warmth and humanity—many people look for estate planning help during a time of stress or crisis—with clarity surrounding the different plans and ease of use. The main CTA directs users to the assessment, a series of questions that creates a personalized plan for each user.
 
 <div class="carousel">
+  <div class="carousel-viewport">
   <div class="carousel-track">
     <div class="carousel-slide">
       <img src="/img/bh-ma/ma-carousel-home1.png" alt="MyAdvocate homepage hero section on desktop showing the headline "The modern way to build a legacy," a brief description, a "Create your plan" CTA button, and a circular photo of a family riding bikes together.">
@@ -115,6 +112,7 @@ The MyAdvocate team has decades of experience in estate planning, and they don�
 Paul Rabelais, MyAdvocate’s resident expert, has hundreds of Youtube videos explaining the estate planning process. We wanted to leverage that content on the site, so we made sure to include a dedicated video experience, and collections of content for different topics.
 
 <div class="carousel">
+  <div class="carousel-viewport">
   <div class="carousel-track">
     <div class="carousel-slide">
       <img src="/img/bh-ma/ma-carousel-learnhome.png" alt="The MyAdvocate Learn page on desktop, showing the headline "Learn the ropes of estate planning," a library search bar, a featured article about joint estate planning with a photo of an elderly couple, and a Trending Stories section below.">
@@ -129,26 +127,21 @@ Paul Rabelais, MyAdvocate’s resident expert, has hundreds of Youtube videos ex
       <p class="caption">One of our main marketing and SEO strategies was to create a robust library of content to establish MyAdvocate as an expert in the field.</p>
     </div>
   </div>
-
-  <div class=carousel-controls>
-
-   <button class="carousel-prev" aria-label="Previous slide">
+  </div>
+  <button class="carousel-prev" aria-label="Previous slide">
     <svg width="16" height="27" viewBox="0 0 16 27" fill="none" xmlns="http://www.w3.org/2000/svg">
 <path fill-rule="evenodd" clip-rule="evenodd" d="M15.0711 20.3431L8.70718 26.7071C8.31665 27.0976 7.68349 27.0976 7.29296 26.7071L0.929002 20.3431C0.538477 19.9526 0.538477 19.3195 0.929002 18.9289C1.31953 18.5384 1.95269 18.5384 2.34322 18.9289L7.00007 23.5858L7.00007 0L9.00007 8.74228e-08L9.00007 23.5858L13.6569 18.9289C14.0474 18.5384 14.6806 18.5384 15.0711 18.9289C15.4617 19.3195 15.4617 19.9526 15.0711 20.3431Z" fill="#656377"/>
 </svg>
 </button>
-
   <div class="carousel-dots">
     <button class="carousel-dot active" aria-label="Slide 1"></button>
     <button class="carousel-dot" aria-label="Slide 2"></button>
         <button class="carousel-dot" aria-label="Slide 3"></button>
   </div>
-
   <button class="carousel-next" aria-label="Next slide">
         <svg width="16" height="27" viewBox="0 0 16 27" fill="none" xmlns="http://www.w3.org/2000/svg">
 <path fill-rule="evenodd" clip-rule="evenodd" d="M15.0711 20.3431L8.70718 26.7071C8.31665 27.0976 7.68349 27.0976 7.29296 26.7071L0.929002 20.3431C0.538477 19.9526 0.538477 19.3195 0.929002 18.9289C1.31953 18.5384 1.95269 18.5384 2.34322 18.9289L7.00007 23.5858L7.00007 0L9.00007 8.74228e-08L9.00007 23.5858L13.6569 18.9289C14.0474 18.5384 14.6806 18.5384 15.0711 18.9289C15.4617 19.3195 15.4617 19.9526 15.0711 20.3431Z" fill="#656377"/>
 </button>
-  </div>
 </div>
 
 

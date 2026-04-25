@@ -45,8 +45,11 @@ h3.second {
 
 .carousel {
 	position: relative;
-	overflow: hidden;
 	margin-bottom: var(--space-md);
+}
+
+.carousel-viewport {
+	overflow: hidden;
 }
 
 .carousel-track {
@@ -64,34 +67,6 @@ h3.second {
 	display: block;
 }
 
-.carousel-controls {
-	display: flex;
-	justify-content: center;
-	gap: var(--space-md);
-	align-items: center;
-}
-
-.carousel-prev,
-.carousel-next {
-
-	@media (min-width: 768px) {
-		position: relative;
-		/* top: 50%; */
-		/* transform: translateY(-50%); */
-		color: var(--text-primary);
-		background-color: var(--background);
-		border: none;
-		width: 40px;
-		height: 40px;
-		font-size: 18px;
-		line-height: 1;
-		padding: 0;
-		cursor: pointer;
-		z-index: 2;
-		left: auto;
-	}
-}
-
 .carousel-prev {
 	transform: rotate(90deg);
 }
@@ -105,7 +80,6 @@ h3.second {
 	display: flex;
 	justify-content: center;
 	gap: 8px;
-	/* padding: var(--space-sm) 0 0; */
 }
 
 .carousel-dot {
@@ -125,8 +99,50 @@ h3.second {
 	background: var(--text-secondary);
 }
 
-@media (max-width: 767px) {
+@media (min-width: 768px) {
+	.carousel {
+		display: grid;
+		grid-template-areas:
+			"prev viewport next"
+			".    dots     .";
+		grid-template-columns: 40px 1fr 40px;
+		column-gap: 20px;
+		margin-left: -60px;
+		margin-right: -60px;
+	}
 
+	.carousel-viewport {
+		grid-area: viewport;
+	}
+
+	.carousel-prev,
+	.carousel-next {
+		align-self: center;
+		justify-self: center;
+		background: var(--background);
+		border: none;
+		width: 40px;
+		height: 40px;
+		padding: 0;
+		cursor: pointer;
+		color: var(--text-primary);
+	}
+
+	.carousel-prev {
+		grid-area: prev;
+	}
+
+	.carousel-next {
+		grid-area: next;
+	}
+
+	.carousel-dots {
+		grid-area: dots;
+		padding-top: var(--space-sm);
+	}
+}
+
+@media (max-width: 767px) {
 	.carousel-prev,
 	.carousel-next {
 		display: none;
@@ -134,6 +150,7 @@ h3.second {
 
 	.carousel-dots {
 		gap: 14px;
+		padding-top: var(--space-sm);
 	}
 
 	.carousel-dot {

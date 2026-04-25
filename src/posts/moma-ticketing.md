@@ -36,6 +36,7 @@ Our goal was to increase the percentage of tickets bought online vs. in the lobb
 We also prioritized preparing visitors for their day at MoMA by adding helpful resources and policies to the confirmation page and email. 
 
 <div class="carousel">
+  <div class="carousel-viewport">
   <div class="carousel-track">
     <div class="carousel-slide">
       <img src="/img/moma-ticketing/ticketing-carousel-threestep.png" alt="Three-screen checkout flow: selecting date and tickets, entering information, and a confirmation screen">
@@ -62,14 +63,12 @@ We also prioritized preparing visitors for their day at MoMA by adding helpful r
       <p class="caption">Bold, color coded tickets helped staff quickly identify who needed an ID check while scanning tickets for entry.</p>
     </div>
   </div>
-  <div class=carousel-controls>
-
-   <button class="carousel-prev" aria-label="Previous slide">
+  </div>
+  <button class="carousel-prev" aria-label="Previous slide">
     <svg width="16" height="27" viewBox="0 0 16 27" fill="none" xmlns="http://www.w3.org/2000/svg">
 <path fill-rule="evenodd" clip-rule="evenodd" d="M15.0711 20.3431L8.70718 26.7071C8.31665 27.0976 7.68349 27.0976 7.29296 26.7071L0.929002 20.3431C0.538477 19.9526 0.538477 19.3195 0.929002 18.9289C1.31953 18.5384 1.95269 18.5384 2.34322 18.9289L7.00007 23.5858L7.00007 0L9.00007 8.74228e-08L9.00007 23.5858L13.6569 18.9289C14.0474 18.5384 14.6806 18.5384 15.0711 18.9289C15.4617 19.3195 15.4617 19.9526 15.0711 20.3431Z" fill="#656377"/>
 </svg>
 </button>
-
   <div class="carousel-dots">
     <button class="carousel-dot active" aria-label="Slide 1"></button>
     <button class="carousel-dot" aria-label="Slide 2"></button>
@@ -78,12 +77,10 @@ We also prioritized preparing visitors for their day at MoMA by adding helpful r
     <button class="carousel-dot" aria-label="Slide 5"></button>
     <button class="carousel-dot" aria-label="Slide 6"></button>
   </div>
-
   <button class="carousel-next" aria-label="Next slide">
         <svg width="16" height="27" viewBox="0 0 16 27" fill="none" xmlns="http://www.w3.org/2000/svg">
 <path fill-rule="evenodd" clip-rule="evenodd" d="M15.0711 20.3431L8.70718 26.7071C8.31665 27.0976 7.68349 27.0976 7.29296 26.7071L0.929002 20.3431C0.538477 19.9526 0.538477 19.3195 0.929002 18.9289C1.31953 18.5384 1.95269 18.5384 2.34322 18.9289L7.00007 23.5858L7.00007 0L9.00007 8.74228e-08L9.00007 23.5858L13.6569 18.9289C14.0474 18.5384 14.6806 18.5384 15.0711 18.9289C15.4617 19.3195 15.4617 19.9526 15.0711 20.3431Z" fill="#656377"/>
 </button>
-  </div>
 </div>
 
 
