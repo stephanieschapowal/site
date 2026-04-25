@@ -4,6 +4,7 @@
 		if (!track) return;
 		var slides = track.querySelectorAll('.carousel-slide');
 		var dots = carousel.querySelectorAll('.carousel-dot');
+		var captions = carousel.querySelectorAll('.carousel-caption');
 		var current = 0;
 
 		function goTo(index) {
@@ -11,6 +12,9 @@
 			track.style.transform = 'translateX(-' + (current * 100) + '%)';
 			dots.forEach(function (d, i) {
 				d.classList.toggle('active', i === current);
+			});
+			captions.forEach(function (c, i) {
+				c.classList.toggle('active', i === current);
 			});
 		}
 
