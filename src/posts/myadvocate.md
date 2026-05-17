@@ -1,11 +1,12 @@
 ---
 siteTitle: Stephanie Schapowal
-pageTitle: MyAdvocate
+pageTitle: MyAdvocate Brand and Marketing Site
 linkTitle: MyAdvocate
 pageClass: work
 layout: posts.html
 description: A marketing site that brings warmth and clarity to estate planning
 img: /img/bh-ma/thumbnail-MA.png
+video: /img/bh-ma/ma-animation.mp4
 headerImg: /img/bh-ma/ma_cover.png
 tags:
   - bh

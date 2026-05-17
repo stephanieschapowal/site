@@ -6,6 +6,7 @@ pageClass: work
 layout: posts.html
 description: Streamlining the ticket-buying process and cutting time to purchase in half
 img: /img/moma-ticketing/thumbnail-Ticketing.png
+video: /img/moma-ticketing/ticketing-animation.mp4
 headerImg: /img/moma-ticketing/ticketing-header.png
 cta: View case study
 tags: moma

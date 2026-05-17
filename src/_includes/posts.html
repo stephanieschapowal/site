@@ -73,7 +73,14 @@
 
 				<li class="content-card">
 					<a class="project-title" href="{{ post.url }}">
+						{% if post.data.video %}
+						<div class="card-media">
+							<img class="card-image" src="{{ post.data.img }}">
+							<video class="card-video" src="{{ post.data.video }}" muted playsinline preload="metadata"></video>
+						</div>
+						{% else %}
 						<img class="card-image" src="{{ post.data.img }}">
+						{% endif %}
 
 						{{ post.data.pageTitle }}
 
@@ -86,6 +93,19 @@
 		{% endif %}
 	</main>
 	<script src="/js/carousel.js"></script>
+	<script>
+		document.querySelectorAll('.content-card').forEach(function(card) {
+			var video = card.querySelector('.card-video');
+			if (!video) return;
+			card.addEventListener('mouseenter', function() {
+				video.currentTime = 0;
+				video.play();
+			});
+			card.addEventListener('mouseleave', function() {
+				video.pause();
+			});
+		});
+	</script>
 </body>
 
 </html>

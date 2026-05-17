@@ -2,7 +2,14 @@
     {%- for post in collections.moma reversed %}
     <li class="content-card">
         <a class="project-title" href="{{ post.url }}">
-            <img class="card-image" src="{{post.data.img}}">
+            {% if post.data.video %}
+            <div class="card-media">
+                <img class="card-image" src="{{ post.data.img }}">
+                <video class="card-video" src="{{ post.data.video }}" muted playsinline preload="metadata"></video>
+            </div>
+            {% else %}
+            <img class="card-image" src="{{ post.data.img }}">
+            {% endif %}
             {{ post.data.linkTitle }}
             <br>
         </a>

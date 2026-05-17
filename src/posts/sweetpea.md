@@ -1,11 +1,12 @@
 ---
 siteTitle: Stephanie Schapowal
-pageTitle: Sweet Pea brand & dating app
+pageTitle: Sweet Pea Brand and Dating App
 linkTitle: Sweet Pea
 pageClass: work
 layout: posts.html
 description: A dating app that recruits your friends to play wingman
 img: /img/bh-sp/thumbnail-SP.jpg
+video: /img/bh-sp/sp-animation.mp4
 headerImg: /img/bh-sp/sp-header.png
 cta: View case study
 tags: 

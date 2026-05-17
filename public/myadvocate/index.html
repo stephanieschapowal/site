@@ -45,7 +45,7 @@
 	</header>
 
 	<div class="project-header">
-		<h1>MyAdvocate</h1>
+		<h1>MyAdvocate Brand and Marketing Site</h1>
 
 		<p class="project-description">
 			A marketing site that brings warmth and clarity to estate planning
@@ -53,7 +53,7 @@
 
 		
 		<div class="post-header-image">
-			<img src="/img/bh-ma/ma_cover.png" alt="MyAdvocate">
+			<img src="/img/bh-ma/ma_cover.png" alt="MyAdvocate Brand and Marketing Site">
 		</div>
 		
 	</div>
@@ -182,9 +182,14 @@
 
 				<li class="content-card">
 					<a class="project-title" href="/sweetpea/">
-						<img class="card-image" src="/img/bh-sp/thumbnail-SP.jpg">
+						
+						<div class="card-media">
+							<img class="card-image" src="/img/bh-sp/thumbnail-SP.jpg">
+							<video class="card-video" src="/img/bh-sp/sp-animation.mp4" muted playsinline preload="metadata"></video>
+						</div>
+						
 
-						Sweet Pea brand & dating app
+						Sweet Pea Brand and Dating App
 
 					</a>
 					<p class="card-caption">A dating app that recruits your friends to play wingman</p>
@@ -193,7 +198,12 @@
 
 				<li class="content-card">
 					<a class="project-title" href="/moma-ticketing/">
-						<img class="card-image" src="/img/moma-ticketing/thumbnail-Ticketing.png">
+						
+						<div class="card-media">
+							<img class="card-image" src="/img/moma-ticketing/thumbnail-Ticketing.png">
+							<video class="card-video" src="/img/moma-ticketing/ticketing-animation.mp4" muted playsinline preload="metadata"></video>
+						</div>
+						
 
 						MoMA's Online Ticketing
 
@@ -206,6 +216,19 @@
 		
 	</main>
 	<script src="/js/carousel.js"></script>
+	<script>
+		document.querySelectorAll('.content-card').forEach(function(card) {
+			var video = card.querySelector('.card-video');
+			if (!video) return;
+			card.addEventListener('mouseenter', function() {
+				video.currentTime = 0;
+				video.play();
+			});
+			card.addEventListener('mouseleave', function() {
+				video.pause();
+			});
+		});
+	</script>
 </body>
 
 </html>

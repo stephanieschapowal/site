@@ -133,6 +133,7 @@ h1 {
 	font-size: var(--typography-lg);
 	line-height: var(--line-height-headline);
 	font-weight: 400;
+	width: 90%;
 
 	@media (min-width: 768px) {
 		font-size: var(--typography-xl);
@@ -249,7 +250,7 @@ a.button {
 
 a.project-title {
 	color: var(--text-primary);
-	font-size: var(--typography-xs);
+	font-size: var(--typography-sm);
 	line-height: var(--line-height-tight);
 	text-decoration: none;
 
@@ -273,6 +274,31 @@ p.card-caption {
 
 .card-image {
 	padding-bottom: var(--space-sm);
+}
+
+.card-media {
+	position: relative;
+	display: block;
+	margin-bottom: var(--space-sm);
+}
+
+.card-media .card-image {
+	padding-bottom: 0;
+	display: block;
+}
+
+.card-video {
+	position: absolute;
+	inset: 0;
+	width: 100%;
+	height: 100%;
+	opacity: 0;
+	transition: opacity 0.3s ease;
+	object-fit: cover;
+}
+
+.content-card:hover .card-video {
+	opacity: 1;
 }
 
 /* related posts */

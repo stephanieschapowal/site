@@ -6,6 +6,7 @@ pageClass: work
 layout: posts.html
 description: Harnessing MoMA’s collection data to improve wayfinding for visitors
 img: /img/moma-dvg/thumbnail-DVG.jpg
+video: /img/moma-dvg/dvg-animation.mp4
 headerImg: /img/moma-dvg/dvg-header.png
 cta: Case study
 tags: 

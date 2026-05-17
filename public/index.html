@@ -50,40 +50,52 @@
 <ul class="postlist">
     <li class="content-card">
         <a class="project-title" href="/moma-dvg/">
-            <img class="card-image" src="/img/moma-dvg/thumbnail-DVG.jpg">
-            Digital Map
-            <br>
-        </a>
-        <p class="card-caption">Harnessing MoMA’s collection data to improve wayfinding for visitors</p>
-    </li>
-    <li class="content-card">
-        <a class="project-title" href="/moma-ticketing/">
-            <img class="card-image" src="/img/moma-ticketing/thumbnail-Ticketing.png">
-            Online Ticketing
-            <br>
-        </a>
-        <p class="card-caption">Streamlining the ticket-buying process and cutting time to purchase in half</p>
-    </li>
+<p><div class="card-media">
+<img class="card-image" src="/img/moma-dvg/thumbnail-DVG.jpg">
+<video class="card-video" src="/img/moma-dvg/dvg-animation.mp4" muted playsinline preload="metadata"></video>
+</div></p>
+<p>Digital Map
+<br>
+</a>
+<p class="card-caption">Harnessing MoMA’s collection data to improve wayfinding for visitors</p>
+</li>
+<li class="content-card">
+<a class="project-title" href="/moma-ticketing/"></p>
+<p><div class="card-media">
+<img class="card-image" src="/img/moma-ticketing/thumbnail-Ticketing.png">
+<video class="card-video" src="/img/moma-ticketing/ticketing-animation.mp4" muted playsinline preload="metadata"></video>
+</div></p>
+<p>Online Ticketing
+<br>
+</a>
+<p class="card-caption">Streamlining the ticket-buying process and cutting time to purchase in half</p>
+</li></p>
 </ul>
 <p class="divider-word">Previously,</p>
 <h3>I was a designer at <a href="https://www.bighuman.com/">Big Human</a>, a full-service product studio. I was involved with every step of the product process, from branding to high fidelity design.</h3>
 <ul class="postlist">
     <li class="content-card">
         <a class="project-title" href="/myadvocate/">
-            <img class="card-image" src="/img/bh-ma/thumbnail-MA.png">
-            MyAdvocate
-            <br>
-        </a>
-        <p class="card-caption">A marketing site that brings warmth and clarity to estate planning</p>
-    </li>
-    <li class="content-card">
-        <a class="project-title" href="/sweetpea/">
-            <img class="card-image" src="/img/bh-sp/thumbnail-SP.jpg">
-            Sweet Pea
-            <br>
-        </a>
-        <p class="card-caption">A dating app that recruits your friends to play wingman</p>
-    </li>
+<p><div class="card-media">
+<img class="card-image" src="/img/bh-ma/thumbnail-MA.png">
+<video class="card-video" src="/img/bh-ma/ma-animation.mp4" muted playsinline preload="metadata"></video>
+</div></p>
+<p>MyAdvocate
+<br>
+</a>
+<p class="card-caption">A marketing site that brings warmth and clarity to estate planning</p>
+</li>
+<li class="content-card">
+<a class="project-title" href="/sweetpea/"></p>
+<p><div class="card-media">
+<img class="card-image" src="/img/bh-sp/thumbnail-SP.jpg">
+<video class="card-video" src="/img/bh-sp/sp-animation.mp4" muted playsinline preload="metadata"></video>
+</div></p>
+<p>Sweet Pea
+<br>
+</a>
+<p class="card-caption">A dating app that recruits your friends to play wingman</p>
+</li></p>
 </ul>
 <p class="divider-word">A bit about me—</p>
 <h3>Prior to life as a product designer, I designed primarily for physical spaces and nonprofits. I created brand activations with <a href="https://imprintprojects.com/">Imprint Projects</a>, swam with <a href="https://pluspool.com/">+POOL</a>, and defined public space with <a href="https://www.instagram.com/middleofbroadstudio/?hl=en">middle Of brOad studio</a>. I received a BFA in graphic design from VCU. Outside of work, I am known for my <a href="https://www.are.na/stephanie-schapowal/quilts-8welg1sywlw">sewing</a> and <a href="https://www.instagram.com/regulartruckrally/">truck collection</a>.</h3>
@@ -91,6 +103,19 @@
 <h3><a href="mailto:stephanieschapowal@gmail.com">Email</a>, <a href="files/StephanieSchapowal_Resume.pdf">Résumé</a>, <a href="https://www.linkedin.com/in/stephanie-schapowal/">LinkedIn</a></h3>
 
 	</main>
+	<script>
+		document.querySelectorAll('.content-card').forEach(function(card) {
+			var video = card.querySelector('.card-video');
+			if (!video) return;
+			card.addEventListener('mouseenter', function() {
+				video.currentTime = 0;
+				video.play();
+			});
+			card.addEventListener('mouseleave', function() {
+				video.pause();
+			});
+		});
+	</script>
 </body>
 
 </html>
