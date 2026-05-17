@@ -45,7 +45,7 @@
 	</header>
 
 	<div class="project-header">
-		<h1>Sweet Pea brand & dating app</h1>
+		<h1>Sweet Pea Brand and Dating App</h1>
 
 		<p class="project-description">
 			A dating app that recruits your friends to play wingman
@@ -53,7 +53,7 @@
 
 		
 		<div class="post-header-image">
-			<img src="/img/bh-sp/sp-header.png" alt="Sweet Pea brand & dating app">
+			<img src="/img/bh-sp/sp-header.png" alt="Sweet Pea Brand and Dating App">
 		</div>
 		
 	</div>
@@ -157,7 +157,12 @@
 
 				<li class="content-card">
 					<a class="project-title" href="/moma-dvg/">
-						<img class="card-image" src="/img/moma-dvg/thumbnail-DVG.jpg">
+						
+						<div class="card-media">
+							<img class="card-image" src="/img/moma-dvg/thumbnail-DVG.jpg">
+							<video class="card-video" src="/img/moma-dvg/dvg-animation.mp4" muted playsinline preload="metadata"></video>
+						</div>
+						
 
 						MoMA's Digital Visitor Guide and Map
 
@@ -168,9 +173,14 @@
 
 				<li class="content-card">
 					<a class="project-title" href="/myadvocate/">
-						<img class="card-image" src="/img/bh-ma/thumbnail-MA.png">
+						
+						<div class="card-media">
+							<img class="card-image" src="/img/bh-ma/thumbnail-MA.png">
+							<video class="card-video" src="/img/bh-ma/ma-animation.mp4" muted playsinline preload="metadata"></video>
+						</div>
+						
 
-						MyAdvocate
+						MyAdvocate Brand and Marketing Site
 
 					</a>
 					<p class="card-caption">A marketing site that brings warmth and clarity to estate planning</p>
@@ -181,6 +191,19 @@
 		
 	</main>
 	<script src="/js/carousel.js"></script>
+	<script>
+		document.querySelectorAll('.content-card').forEach(function(card) {
+			var video = card.querySelector('.card-video');
+			if (!video) return;
+			card.addEventListener('mouseenter', function() {
+				video.currentTime = 0;
+				video.play();
+			});
+			card.addEventListener('mouseleave', function() {
+				video.pause();
+			});
+		});
+	</script>
 </body>
 
 </html>

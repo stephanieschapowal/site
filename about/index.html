@@ -51,6 +51,19 @@
 <h3>Résumé, <a href="https://www.linkedin.com/in/stephanie-schapowal/">LinkedIn</a>, <a href="mailto:stephanieschapowal@gmail.com">Email</a></h3>
 
 	</main>
+	<script>
+		document.querySelectorAll('.content-card').forEach(function(card) {
+			var video = card.querySelector('.card-video');
+			if (!video) return;
+			card.addEventListener('mouseenter', function() {
+				video.currentTime = 0;
+				video.play();
+			});
+			card.addEventListener('mouseleave', function() {
+				video.pause();
+			});
+		});
+	</script>
 </body>
 
 </html>
